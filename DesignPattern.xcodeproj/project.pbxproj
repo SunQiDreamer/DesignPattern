@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1AC3DA26568B59002222FC /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1AC3D926568B59002222FC /* Factory.swift */; };
 		2C2E1372265689D6007D1C29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E1371265689D6007D1C29 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C1AC3D926568B59002222FC /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		2C2E136E265689D6007D1C29 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2E1371265689D6007D1C29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +40,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1AC3D426568B17002222FC /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		2C1AC3D526568B2A002222FC /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2C1AC3D926568B59002222FC /* Factory.swift */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		2C1AC3D626568B37002222FC /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		2C1AC3D726568B40002222FC /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		2C1AC3D826568B47002222FC /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
 		2C2E1365265689D6007D1C29 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +95,11 @@
 		2C2E1370265689D6007D1C29 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				2C1AC3D826568B47002222FC /* 建造者模式 */,
+				2C1AC3D726568B40002222FC /* 命令模式 */,
+				2C1AC3D626568B37002222FC /* 外观模式 */,
+				2C1AC3D526568B2A002222FC /* 工厂模式 */,
+				2C1AC3D426568B17002222FC /* 观察者模式 */,
 				2C2E1371265689D6007D1C29 /* main.swift */,
 			);
 			path = DesignPattern;
@@ -119,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1AC3DA26568B59002222FC /* Factory.swift in Sources */,
 				2C2E1372265689D6007D1C29 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
