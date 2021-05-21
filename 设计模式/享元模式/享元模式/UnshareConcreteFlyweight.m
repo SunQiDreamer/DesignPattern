@@ -9,7 +9,9 @@
 #import "UnshareConcreteFlyweight.h"
 
 @implementation UnshareConcreteFlyweight
+
 - (void)operation:(int)extrinsicstate {
-    NSLog(@"不共享的具体Flyweight:%d", extrinsicstate);
+    NSLog(@"cell2 :%d", extrinsicstate);
 }
+
 @end

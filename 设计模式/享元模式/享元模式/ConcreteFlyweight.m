@@ -10,6 +10,6 @@
 
 @implementation ConcreteFlyweight
 - (void)operation:(int)extrinsicstate {
-    NSLog(@"具体Flyweight:%d", extrinsicstate);
+    NSLog(@"cell1 :%d", extrinsicstate);
 }
 @end

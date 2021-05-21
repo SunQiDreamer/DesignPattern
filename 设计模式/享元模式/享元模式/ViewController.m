@@ -19,16 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // tableviewCell，提前创建好一些cell, 每次从复用池中取出不同的cell使用
     int extrinsicstate = 22;
+    // 享元工厂
     FlyweightFactory *f = [FlyweightFactory new];
     
-    Flyweight *fx = [f getFlyweight:@"X"];
+    // 取出cell1
+    id<Flyweight> fx = [f getFlyweight:@"X"];
     [fx operation:--extrinsicstate];
     
-    Flyweight *fy = [f getFlyweight:@"Y"];
+    // 取出cell1
+    id<Flyweight> fy = [f getFlyweight:@"Y"];
     [fy operation:--extrinsicstate];
     
-    Flyweight *uf = [UnshareConcreteFlyweight new];
+    // 重新创建cell2
+    id<Flyweight> uf = [UnshareConcreteFlyweight new];
     [uf operation:--extrinsicstate];
 }
 

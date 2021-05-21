@@ -9,7 +9,7 @@
 #import "FlyweightFactory.h"
 
 @interface FlyweightFactory ()
-
+// 复用池
 @property (nonatomic, strong) NSMutableDictionary *flyweights;
 
 @end
@@ -19,6 +19,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         _flyweights = [NSMutableDictionary dictionary];
+        // 先创建一些cell，放在复用池中
         [_flyweights setObject:[ConcreteFlyweight new] forKey:@"X"];
         [_flyweights setObject:[ConcreteFlyweight new] forKey:@"Y"];
         [_flyweights setObject:[ConcreteFlyweight new] forKey:@"Z"];
@@ -26,7 +27,7 @@
     return self;
 }
 
-- (Flyweight *)getFlyweight:(NSString *)key {
+- (id<Flyweight>)getFlyweight:(NSString *)key {
     return self.flyweights[key];
 }
 

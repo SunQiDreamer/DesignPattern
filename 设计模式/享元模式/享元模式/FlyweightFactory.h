@@ -11,6 +11,7 @@
 
 @interface FlyweightFactory : NSObject
 
-- (Flyweight *)getFlyweight:(NSString *)key;
+// 从复用池中根据key取出不同的cell
+- (id<Flyweight>)getFlyweight:(NSString *)key;
 
 @end

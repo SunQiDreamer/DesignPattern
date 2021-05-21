@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Flyweight : NSObject
+@protocol Flyweight <NSObject>
+
 - (void)operation:(int)extrinsicstate;
+
 @end

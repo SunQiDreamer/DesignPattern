@@ -15,7 +15,6 @@
 		AC9EC9F71FDB8B620045615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9F61FDB8B620045615E /* main.m */; };
 		AC9ECA011FDB8B620045615E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA001FDB8B620045615E /* ____Tests.m */; };
 		AC9ECA0C1FDB8B620045615E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA0B1FDB8B620045615E /* ____UITests.m */; };
-		AC9ECA1B1FDB8B780045615E /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA1A1FDB8B780045615E /* Flyweight.m */; };
 		AC9ECA1E1FDB8BBD0045615E /* ConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA1D1FDB8BBD0045615E /* ConcreteFlyweight.m */; };
 		AC9ECA211FDB8C1C0045615E /* UnshareConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA201FDB8C1C0045615E /* UnshareConcreteFlyweight.m */; };
 		AC9ECA241FDB8C7B0045615E /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA231FDB8C7B0045615E /* FlyweightFactory.m */; };
@@ -56,7 +55,6 @@
 		AC9ECA0B1FDB8B620045615E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		AC9ECA0D1FDB8B620045615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9ECA191FDB8B780045615E /* Flyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flyweight.h; sourceTree = "<group>"; };
-		AC9ECA1A1FDB8B780045615E /* Flyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
 		AC9ECA1C1FDB8BBD0045615E /* ConcreteFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyweight.h; sourceTree = "<group>"; };
 		AC9ECA1D1FDB8BBD0045615E /* ConcreteFlyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyweight.m; sourceTree = "<group>"; };
 		AC9ECA1F1FDB8C1C0045615E /* UnshareConcreteFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnshareConcreteFlyweight.h; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				AC9EC9F51FDB8B620045615E /* Info.plist */,
 				AC9EC9F61FDB8B620045615E /* main.m */,
 				AC9ECA191FDB8B780045615E /* Flyweight.h */,
-				AC9ECA1A1FDB8B780045615E /* Flyweight.m */,
 				AC9ECA1C1FDB8BBD0045615E /* ConcreteFlyweight.h */,
 				AC9ECA1D1FDB8BBD0045615E /* ConcreteFlyweight.m */,
 				AC9ECA1F1FDB8C1C0045615E /* UnshareConcreteFlyweight.h */,
@@ -288,7 +285,6 @@
 				AC9ECA1E1FDB8BBD0045615E /* ConcreteFlyweight.m in Sources */,
 				AC9ECA211FDB8C1C0045615E /* UnshareConcreteFlyweight.m in Sources */,
 				AC9EC9EC1FDB8B620045615E /* ViewController.m in Sources */,
-				AC9ECA1B1FDB8B780045615E /* Flyweight.m in Sources */,
 				AC9EC9F71FDB8B620045615E /* main.m in Sources */,
 				AC9ECA241FDB8C7B0045615E /* FlyweightFactory.m in Sources */,
 				AC9EC9E91FDB8B620045615E /* AppDelegate.m in Sources */,

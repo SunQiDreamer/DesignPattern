@@ -8,6 +8,6 @@
 
 #import "Flyweight.h"
 
-@interface UnshareConcreteFlyweight : Flyweight
+@interface UnshareConcreteFlyweight : NSObject<Flyweight>
 
 @end
