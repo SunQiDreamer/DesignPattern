@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Strategy : NSObject
+@protocol Strategy <NSObject>
+
 - (void)algorithmInterface;
+
 @end

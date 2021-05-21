@@ -8,6 +8,6 @@
 
 #import "Strategy.h"
 
-@interface ConcreteStrategyB : Strategy
+@interface ConcreteStrategyB : NSObject<Strategy>
 
 @end

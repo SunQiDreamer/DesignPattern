@@ -7,16 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-@class Strategy;
+#import "Strategy.h"
 
 @interface Context : NSObject
-
 /**
  工厂方法结合策略模式
  */
 - (instancetype)initWithString:(NSString *)string;
 
-- (instancetype)initWithStrategy:(Strategy *)strategy;
+- (instancetype)initWithStrategy:(id<Strategy>)strategy;
 
 - (void)contextInterface;
 

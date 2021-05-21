@@ -12,7 +12,7 @@
 
 @interface Context ()
 
-@property (nonatomic, strong) Strategy *strategy;
+@property (nonatomic, strong) id<Strategy> strategy;
 
 @end
 
@@ -25,7 +25,7 @@
     return self;
 }
 
-- (Strategy *)productStrategy:(NSString *)string {
+- (id<Strategy>)productStrategy:(NSString *)string {
     if ([string isEqualToString:@"A"]) {
         return [ConcreteStrategyA new];
     } else if ([string isEqualToString:@"B"]) {
@@ -34,16 +34,14 @@
     return nil;
 }
 
-- (instancetype)initWithStrategy:(Strategy *)strategy
-{
+- (instancetype)initWithStrategy:(id<Strategy>)strategy {
     if (self = [super init]) {
         _strategy = strategy;
     }
     return self;
 }
 
-- (void)contextInterface
-{
+- (void)contextInterface {
     [self.strategy algorithmInterface];
 }
 @end

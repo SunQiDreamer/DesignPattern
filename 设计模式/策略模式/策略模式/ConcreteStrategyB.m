@@ -9,8 +9,7 @@
 #import "ConcreteStrategyB.h"
 
 @implementation ConcreteStrategyB
-- (void)algorithmInterface
-{
+- (void)algorithmInterface {
     NSLog(@"算法B的实现");
 }
 @end
