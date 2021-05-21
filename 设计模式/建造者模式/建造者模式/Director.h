@@ -10,5 +10,5 @@
 #import "Builder.h"
 
 @interface Director : NSObject
-- (void)construt:(Builder *)builder;
+- (void)construt:(id<Builder>)builder;
 @end

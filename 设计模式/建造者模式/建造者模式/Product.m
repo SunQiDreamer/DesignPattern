@@ -13,8 +13,7 @@
 @end
 
 @implementation Product
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         _parts = [NSMutableArray array];

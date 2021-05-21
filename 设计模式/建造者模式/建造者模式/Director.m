@@ -9,7 +9,7 @@
 #import "Director.h"
 
 @implementation Director
-- (void)construt:(Builder *)builder {
+- (void)construt:(id<Builder>)builder {
     [builder buildPartA];
     [builder buildPartB];
 }

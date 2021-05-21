@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "Product.h"
 
-@interface Builder : NSObject
+@protocol Builder <NSObject>
+
 - (void)buildPartA;
 - (void)buildPartB;
 - (Product *)getResult;
+
 @end

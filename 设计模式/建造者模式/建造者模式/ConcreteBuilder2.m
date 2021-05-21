@@ -15,8 +15,7 @@
 @end
 
 @implementation ConcreteBuilder2
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         _product = [Product new];

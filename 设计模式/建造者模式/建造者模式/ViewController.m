@@ -31,10 +31,7 @@
     [dirctor construt:builder2];
     Product *product2 = [builder2 getResult];
     [product2 show];
-    
-    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

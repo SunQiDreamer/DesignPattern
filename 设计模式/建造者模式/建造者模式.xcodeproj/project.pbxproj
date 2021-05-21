@@ -16,7 +16,6 @@
 		AC9EC9671FDAAD8A0045615E /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9661FDAAD8A0045615E /* _____Tests.m */; };
 		AC9EC9721FDAAD8A0045615E /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9711FDAAD8A0045615E /* _____UITests.m */; };
 		AC9EC9811FDAADA80045615E /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9801FDAADA80045615E /* Product.m */; };
-		AC9EC9841FDAAE730045615E /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9831FDAAE730045615E /* Builder.m */; };
 		AC9EC9871FDAAF2B0045615E /* ConcreteBuilder1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9861FDAAF2B0045615E /* ConcreteBuilder1.m */; };
 		AC9EC98A1FDAAFAC0045615E /* ConcreteBuilder2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9891FDAAFAC0045615E /* ConcreteBuilder2.m */; };
 		AC9EC98D1FDAB1770045615E /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC98C1FDAB1770045615E /* Director.m */; };
@@ -59,7 +58,6 @@
 		AC9EC97F1FDAADA80045615E /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		AC9EC9801FDAADA80045615E /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		AC9EC9821FDAAE730045615E /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
-		AC9EC9831FDAAE730045615E /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		AC9EC9851FDAAF2B0045615E /* ConcreteBuilder1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteBuilder1.h; sourceTree = "<group>"; };
 		AC9EC9861FDAAF2B0045615E /* ConcreteBuilder1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteBuilder1.m; sourceTree = "<group>"; };
 		AC9EC9881FDAAFAC0045615E /* ConcreteBuilder2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteBuilder2.h; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				AC9EC97F1FDAADA80045615E /* Product.h */,
 				AC9EC9801FDAADA80045615E /* Product.m */,
 				AC9EC9821FDAAE730045615E /* Builder.h */,
-				AC9EC9831FDAAE730045615E /* Builder.m */,
 				AC9EC9851FDAAF2B0045615E /* ConcreteBuilder1.h */,
 				AC9EC9861FDAAF2B0045615E /* ConcreteBuilder1.m */,
 				AC9EC9881FDAAFAC0045615E /* ConcreteBuilder2.h */,
@@ -295,7 +292,6 @@
 				AC9EC98A1FDAAFAC0045615E /* ConcreteBuilder2.m in Sources */,
 				AC9EC9811FDAADA80045615E /* Product.m in Sources */,
 				AC9EC95D1FDAAD8A0045615E /* main.m in Sources */,
-				AC9EC9841FDAAE730045615E /* Builder.m in Sources */,
 				AC9EC9871FDAAF2B0045615E /* ConcreteBuilder1.m in Sources */,
 				AC9EC94F1FDAAD8A0045615E /* AppDelegate.m in Sources */,
 			);
@@ -461,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "建造者模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----";
@@ -474,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "建造者模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----";

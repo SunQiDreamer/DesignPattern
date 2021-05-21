@@ -8,6 +8,6 @@
 
 #import "Builder.h"
 
-@interface ConcreteBuilder2 : Builder
+@interface ConcreteBuilder2 : NSObject<Builder>
 
 @end
