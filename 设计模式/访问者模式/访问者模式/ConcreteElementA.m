@@ -9,18 +9,13 @@
 #import "ConcreteElementA.h"
 #import "Visitor.h"
 
-@interface ConcreteElementA ()
-
-@end
-
 @implementation ConcreteElementA
-- (void)accept:(Visitor *)visitor
-{
+- (void)accept:(Visitor *)visitor {
     [visitor visitorConcreteElementA:self];
 }
 
-- (void)operationA
-{
+- (void)operation {
     NSLog(@"A操作");
 }
+
 @end

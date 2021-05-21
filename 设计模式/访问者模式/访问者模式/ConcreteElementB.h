@@ -9,5 +9,5 @@
 #import "Element.h"
 
 @interface ConcreteElementB : NSObject<Element>
-- (void)operationB;
+
 @end

@@ -13,4 +13,6 @@
 
 - (void)accept:(Visitor *)visitor;
 
+- (void)operation;
+
 @end

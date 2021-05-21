@@ -10,12 +10,12 @@
 
 @implementation ConcreteVisitor3
 
-- (void)visitorConcreteElementA:(ConcreteElementA *)ele {
-    [super visitorConcreteElementA:ele];
-}
-
-- (void)visitorConcreteElementB:(ConcreteElementB *)ele {
-    [super visitorConcreteElementB:ele];
-}
+//- (void)visitorConcreteElementA:(ConcreteElementA *)ele {
+//    [super visitorConcreteElementA:ele];
+//}
+//
+//- (void)visitorConcreteElementB:(ConcreteElementB *)ele {
+//    [super visitorConcreteElementB:ele];
+//}
 
 @end

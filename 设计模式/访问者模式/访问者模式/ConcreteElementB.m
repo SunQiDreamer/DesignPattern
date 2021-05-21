@@ -14,13 +14,11 @@
 @end
 
 @implementation ConcreteElementB
-- (void)accept:(Visitor *)visitor
-{
+- (void)accept:(Visitor *)visitor {
     [visitor visitorConcreteElementB:self];
 }
 
-- (void)operationB
-{
+- (void)operation {
     NSLog(@"B操作");
 }
 @end

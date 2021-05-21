@@ -11,6 +11,7 @@
 #import "ConcreteElementB.h"
 
 @interface Visitor : NSObject
+
 - (void)visitorConcreteElementA:(ConcreteElementA *)ele;
 - (void)visitorConcreteElementB:(ConcreteElementB *)ele;
 
