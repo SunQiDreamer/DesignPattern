@@ -11,29 +11,26 @@
 #import "Visitor.h"
 
 @interface ObjectStructrue ()
-@property (nonatomic,strong) NSMutableArray <Element *>*list;
+@property (nonatomic,strong) NSMutableArray <id<Element>> *list;
 
 @end
 
 @implementation ObjectStructrue
-- (void)attach:(Element *)ele
-{
+- (void)attach:(id<Element>)ele {
     [self.list addObject:ele];
 }
 
-- (void)detach:(Element *)ele
-{
+- (void)detach:(id<Element>)ele {
     [self.list removeObject:ele];
 }
 
-- (void)accept:(Visitor *)visitor
-{
-    for (Element *ele in self.list) {
+- (void)accept:(Visitor *)visitor {
+    for (id<Element> ele in self.list) {
         [ele accept:visitor];
     }
 }
 
-- (NSMutableArray<Element *> *)list{
+- (NSMutableArray<id<Element>> *)list {
     if (!_list) {
         self.list = [[NSMutableArray alloc]init];
     }

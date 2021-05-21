@@ -8,6 +8,6 @@
 
 #import "Element.h"
 
-@interface ConcreteElementA : Element
+@interface ConcreteElementA : NSObject<Element>
 - (void)operationA;
 @end

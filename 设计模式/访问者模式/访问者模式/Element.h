@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 @class Visitor;
 
-@interface Element : NSObject
+@protocol Element <NSObject>
+
 - (void)accept:(Visitor *)visitor;
+
 @end

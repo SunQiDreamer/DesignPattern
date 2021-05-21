@@ -6,11 +6,14 @@
 //  Copyright © 2017年 sunqi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@class Element,Visitor;
+#import "Element.h"
+
+@class Visitor;
 
 @interface ObjectStructrue : NSObject
-- (void)attach:(Element *)ele;
-- (void)detach:(Element *)ele;
+
+- (void)attach:(id<Element>)ele;
+- (void)detach:(id<Element>)ele;
 - (void)accept:(Visitor *)visitor;
+
 @end

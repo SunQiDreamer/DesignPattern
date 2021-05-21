@@ -16,7 +16,6 @@
 		AC4DDBE21E6BDD5E0061D9E9 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDBE11E6BDD5E0061D9E9 /* _____Tests.m */; };
 		AC4DDBED1E6BDD5F0061D9E9 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDBEC1E6BDD5F0061D9E9 /* _____UITests.m */; };
 		AC4DDBFC1E6BDDA80061D9E9 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDBFB1E6BDDA80061D9E9 /* Visitor.m */; };
-		AC4DDBFF1E6BDDBA0061D9E9 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDBFE1E6BDDBA0061D9E9 /* Element.m */; };
 		AC4DDC021E6BDDDB0061D9E9 /* ConcreteVisitor1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC011E6BDDDB0061D9E9 /* ConcreteVisitor1.m */; };
 		AC4DDC051E6BDDEE0061D9E9 /* ConcreteVisitor2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC041E6BDDEE0061D9E9 /* ConcreteVisitor2.m */; };
 		AC4DDC081E6BDE080061D9E9 /* ConcreteElementA.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC071E6BDE080061D9E9 /* ConcreteElementA.m */; };
@@ -62,7 +61,6 @@
 		AC4DDBFA1E6BDDA80061D9E9 /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
 		AC4DDBFB1E6BDDA80061D9E9 /* Visitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
 		AC4DDBFD1E6BDDBA0061D9E9 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
-		AC4DDBFE1E6BDDBA0061D9E9 /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
 		AC4DDC001E6BDDDB0061D9E9 /* ConcreteVisitor1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteVisitor1.h; sourceTree = "<group>"; };
 		AC4DDC011E6BDDDB0061D9E9 /* ConcreteVisitor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteVisitor1.m; sourceTree = "<group>"; };
 		AC4DDC031E6BDDEE0061D9E9 /* ConcreteVisitor2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteVisitor2.h; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 				AC9EC9CC1FDB77E80045615E /* ConcreteVisitor3.h */,
 				AC9EC9CD1FDB77E80045615E /* ConcreteVisitor3.m */,
 				AC4DDBFD1E6BDDBA0061D9E9 /* Element.h */,
-				AC4DDBFE1E6BDDBA0061D9E9 /* Element.m */,
 				AC4DDC061E6BDE080061D9E9 /* ConcreteElementA.h */,
 				AC4DDC071E6BDE080061D9E9 /* ConcreteElementA.m */,
 				AC4DDC091E6BDE160061D9E9 /* ConcreteElementB.h */,
@@ -266,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -319,7 +317,6 @@
 				AC4DDBCF1E6BDD5E0061D9E9 /* ViewController.m in Sources */,
 				AC4DDC051E6BDDEE0061D9E9 /* ConcreteVisitor2.m in Sources */,
 				AC4DDC081E6BDE080061D9E9 /* ConcreteElementA.m in Sources */,
-				AC4DDBFF1E6BDDBA0061D9E9 /* Element.m in Sources */,
 				AC4DDC021E6BDDDB0061D9E9 /* ConcreteVisitor1.m in Sources */,
 				AC4DDBCC1E6BDD5E0061D9E9 /* AppDelegate.m in Sources */,
 				AC4DDBC91E6BDD5E0061D9E9 /* main.m in Sources */,
