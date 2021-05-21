@@ -19,8 +19,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // 穿衣打扮，不同季节不同的打扮
     Facade *f = [Facade new];
+    // 春天打扮
     [f methodA];
+    // 夏天打扮
     [f methodB];
 }
 

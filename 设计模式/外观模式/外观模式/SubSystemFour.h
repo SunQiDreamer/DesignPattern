@@ -6,8 +6,8 @@
 //  Copyright © 2017年 BlueMobi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "System.h"
 
-@interface SubSystemFour : NSObject
-- (void)methodFour;
+@interface SubSystemFour : NSObject<System>
+
 @end

@@ -32,13 +32,19 @@
 }
 
 - (void)methodA {
-    [self.one methodOne];
-    [self.two methodTwo];
+    // 春天的穿着
+    NSLog(@"===============");
+    [self.one method];
+    [self.two method];
+    NSLog(@"===============");
 }
 
 - (void)methodB {
-    [self.three methodThree];
-    [self.four methodFour];
+    // 夏天的穿着
+    NSLog(@"===============");
+    [self.three method];
+    [self.four method];
+    NSLog(@"===============");
 }
 
 @end

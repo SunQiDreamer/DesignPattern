@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1AC3DB2657E0AB002222FC /* System.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
 		ACDDEA051E55EA6000A2AE34 /* 外观模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "外观模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDDEA091E55EA6000A2AE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACDDEA0B1E55EA6000A2AE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				ACDDEA141E55EA6000A2AE34 /* Assets.xcassets */,
 				ACDDEA161E55EA6000A2AE34 /* LaunchScreen.storyboard */,
 				ACDDEA191E55EA6000A2AE34 /* Info.plist */,
+				2C1AC3DB2657E0AB002222FC /* System.h */,
 				ACDDEA081E55EA6000A2AE34 /* Supporting Files */,
 				ACDDEA3B1E55EAD200A2AE34 /* SubSystemOne.h */,
 				ACDDEA3C1E55EAD200A2AE34 /* SubSystemOne.m */,
@@ -251,6 +253,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -537,6 +540,7 @@
 				ACDDEA341E55EA6000A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACDDEA351E55EA6000A2AE34 /* Build configuration list for PBXNativeTarget "外观模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +549,7 @@
 				ACDDEA371E55EA6000A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACDDEA381E55EA6000A2AE34 /* Build configuration list for PBXNativeTarget "外观模式UITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +558,7 @@
 				ACDDEA3A1E55EA6000A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

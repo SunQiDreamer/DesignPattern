@@ -9,7 +9,9 @@
 #import "SubSystemTwo.h"
 
 @implementation SubSystemTwo
-- (void)methodTwo {
-    NSLog(@"子系统方法二");
+
+- (void)method {
+    NSLog(@"穿裤子");
 }
+
 @end

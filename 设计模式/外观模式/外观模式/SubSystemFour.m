@@ -9,8 +9,9 @@
 #import "SubSystemFour.h"
 
 @implementation SubSystemFour
-- (void)methodFour {
-    NSLog(@"子系统方法四");
 
+- (void)method {
+    NSLog(@"穿短裤");
 }
+
 @end
