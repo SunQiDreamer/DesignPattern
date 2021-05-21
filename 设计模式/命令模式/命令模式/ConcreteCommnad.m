@@ -9,7 +9,5 @@
 #import "ConcreteCommnad.h"
 
 @implementation ConcreteCommnad
-- (void)execute:(NSString *)name {
-    [self.receiver action:name];
-}
+
 @end

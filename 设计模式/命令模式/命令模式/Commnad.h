@@ -11,9 +11,9 @@
 
 @interface Commnad : NSObject
 
-@property (nonatomic,strong) Receiver *receiver;
+@property (nonatomic, strong, readonly) Receiver *receiver;
 
-@property (nonatomic,copy, readonly) NSString *name;
+@property (nonatomic, copy, readonly) NSString *name;
 
 - (instancetype)initWithReceiver:(Receiver *)receiver name:(NSString *)name;
 

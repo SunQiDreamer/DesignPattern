@@ -11,7 +11,7 @@
 
 @interface Invoker : NSObject
 
-@property (nonatomic,strong) Commnad *command;
+@property (nonatomic, strong) Commnad *command;
 
 - (void)cancelCommand:(Commnad *)command;
 

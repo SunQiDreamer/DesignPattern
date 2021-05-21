@@ -16,4 +16,10 @@
     }
     return self;
 }
+
+- (void)execute:(NSString *)name {
+    // 员工执行任务
+    [self.receiver action:name];
+}
+
 @end
