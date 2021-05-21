@@ -11,8 +11,7 @@
 #import "OperationB.h"
 
 @implementation Factory
-+ (Operation *)createOperationWithStr:(NSString *)operationString
-{
++ (id)createOperationWithStr:(NSString *)operationString {
     if ([operationString isEqualToString:@"A"]) {
         return [[OperationA alloc] init];
     }else if ([operationString isEqualToString:@"B"]){
@@ -21,16 +20,4 @@
     return nil;
 }
 
-//- (instancetype)initWithStrategy:(Operation *)operation
-//{
-//    if (self = [super init]) {
-//        self.operation = operation;
-//    }
-//    return self;
-//}
-//
-//- (void)contextInterface
-//{
-//    [self.operation getResult];
-//}
 @end

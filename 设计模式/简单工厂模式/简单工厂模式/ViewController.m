@@ -25,10 +25,7 @@
     
     OperationB *operationB = [Factory createOperationWithStr:@"B"];
     [operationB getResult];
-    
-//    Factory *f = [[Factory alloc] initWithStrategy:[[OperationA alloc] init]];
-//    [f contextInterface];
-    
+       
 }
 
 

@@ -9,8 +9,7 @@
 #import "OperationA.h"
 
 @implementation OperationA
-- (void)getResult
-{
+- (void)getResult {
     NSLog(@"A");
 }
 @end

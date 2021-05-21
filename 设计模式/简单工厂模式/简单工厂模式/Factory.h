@@ -6,12 +6,8 @@
 //  Copyright © 2017年 BlueMobi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@class Operation;
+#import "Operation.h"
 
 @interface Factory : NSObject
-//@property (nonatomic,strong) Operation *operation;
-//- (instancetype)initWithStrategy:(Operation *)operation;
-//- (void)contextInterface;
-+ (__kindof Operation *)createOperationWithStr:(NSString *)operationString;
++ (id<Operation>)createOperationWithStr:(NSString *)operationString;
 @end

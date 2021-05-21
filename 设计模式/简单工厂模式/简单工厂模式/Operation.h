@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Operation : NSObject
+@protocol Operation <NSObject>
+
 - (void)getResult;
+
 @end

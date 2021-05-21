@@ -15,7 +15,6 @@
 		AC5938F01E4372EA00E1EDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5938EE1E4372EA00E1EDE5 /* LaunchScreen.storyboard */; };
 		AC5938FB1E4372EA00E1EDE5 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5938FA1E4372EA00E1EDE5 /* ______Tests.m */; };
 		AC5939061E4372EA00E1EDE5 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939051E4372EA00E1EDE5 /* ______UITests.m */; };
-		AC5939151E43731000E1EDE5 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939141E43731000E1EDE5 /* Operation.m */; };
 		AC5939181E43734E00E1EDE5 /* OperationA.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939171E43734E00E1EDE5 /* OperationA.m */; };
 		AC59391B1E43735800E1EDE5 /* OperationB.m in Sources */ = {isa = PBXBuildFile; fileRef = AC59391A1E43735800E1EDE5 /* OperationB.m */; };
 		AC59391E1E4373DE00E1EDE5 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC59391D1E4373DE00E1EDE5 /* Factory.m */; };
@@ -56,7 +55,6 @@
 		AC5939051E4372EA00E1EDE5 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		AC5939071E4372EA00E1EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5939131E43731000E1EDE5 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
-		AC5939141E43731000E1EDE5 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 		AC5939161E43734E00E1EDE5 /* OperationA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationA.h; sourceTree = "<group>"; };
 		AC5939171E43734E00E1EDE5 /* OperationA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationA.m; sourceTree = "<group>"; };
 		AC5939191E43735800E1EDE5 /* OperationB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationB.h; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				AC5938F11E4372EA00E1EDE5 /* Info.plist */,
 				AC5938E01E4372E900E1EDE5 /* Supporting Files */,
 				AC5939131E43731000E1EDE5 /* Operation.h */,
-				AC5939141E43731000E1EDE5 /* Operation.m */,
 				AC5939161E43734E00E1EDE5 /* OperationA.h */,
 				AC5939171E43734E00E1EDE5 /* OperationA.m */,
 				AC5939191E43735800E1EDE5 /* OperationB.h */,
@@ -227,6 +224,7 @@
 				TargetAttributes = {
 					AC5938DC1E4372E900E1EDE5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4EH4PGQM4J;
 						ProvisioningStyle = Automatic;
 					};
 					AC5938F51E4372EA00E1EDE5 = {
@@ -246,6 +244,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -298,7 +297,6 @@
 				AC5938E51E4372EA00E1EDE5 /* AppDelegate.m in Sources */,
 				AC5938E21E4372E900E1EDE5 /* main.m in Sources */,
 				AC59391B1E43735800E1EDE5 /* OperationB.m in Sources */,
-				AC5939151E43731000E1EDE5 /* Operation.m in Sources */,
 				AC59391E1E4373DE00E1EDE5 /* Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "简单工厂模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.------";
@@ -459,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "简单工厂模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.------";
@@ -531,6 +531,7 @@
 				AC59390C1E4372EA00E1EDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC59390D1E4372EA00E1EDE5 /* Build configuration list for PBXNativeTarget "简单工厂模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				AC59390F1E4372EA00E1EDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5939101E4372EA00E1EDE5 /* Build configuration list for PBXNativeTarget "简单工厂模式UITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				AC5939121E4372EA00E1EDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

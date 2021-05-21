@@ -8,6 +8,6 @@
 
 #import "Operation.h"
 
-@interface OperationA : Operation
+@interface OperationA : NSObject<Operation>
 
 @end
