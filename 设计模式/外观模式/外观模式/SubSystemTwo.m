@@ -9,8 +9,7 @@
 #import "SubSystemTwo.h"
 
 @implementation SubSystemTwo
-- (void)methodTwo
-{
+- (void)methodTwo {
     NSLog(@"子系统方法二");
 }
 @end

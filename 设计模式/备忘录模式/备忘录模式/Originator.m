@@ -10,18 +10,15 @@
 #import "Memento.h"
 
 @implementation Originator
-- (Memento *)createMemento
-{
+- (Memento *)createMemento {
     return [[Memento alloc] initWithState:self.state];
 }
 
-- (void)setMemnto:(Memento *)memnto
-{
+- (void)setMemnto:(Memento *)memnto {
     self.state = memnto.state;
 }
 
-- (void)show
-{
+- (void)show {
     NSLog(@"state:%@",self.state);
 }
 @end

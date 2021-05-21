@@ -9,8 +9,7 @@
 #import "SubSystemFour.h"
 
 @implementation SubSystemFour
-- (void)methodFour
-{
+- (void)methodFour {
     NSLog(@"子系统方法四");
 
 }

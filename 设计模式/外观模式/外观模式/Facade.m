@@ -21,7 +21,7 @@
 @end
 
 @implementation Facade
--(instancetype)init{
+- (instancetype)init {
     if (self = [super init]) {
         _one = [SubSystemOne new];
         _two = [SubSystemTwo new];
@@ -31,13 +31,12 @@
     return self;
 }
 
-- (void)methodA
-{
+- (void)methodA {
     [self.one methodOne];
     [self.two methodTwo];
 }
-- (void)methodB
-{
+
+- (void)methodB {
     [self.three methodThree];
     [self.four methodFour];
 }

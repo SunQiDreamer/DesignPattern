@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Memento : NSObject
-@property (nonatomic,strong) NSString *state;
+
+@property (nonatomic, strong, readonly) NSString *state;
+
 - (instancetype)initWithState:(NSString *)state;
+
 @end

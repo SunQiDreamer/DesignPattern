@@ -25,7 +25,8 @@
     [o show];
     
     Caretaker *c = [[Caretaker alloc] init];
-    c.memnto = [o createMemento];//将on保存在memnto的state属性中
+    Memento *m = [o createMemento];
+    c.memnto = m; //将on保存在memnto的state属性中
     
     o.state = @"off";//只是改变发起者中state属性的值，没有改变备忘录中state的值
     [o show];//show发起者中state值

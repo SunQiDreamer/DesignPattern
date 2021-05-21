@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 @class Memento;
+
 @interface Caretaker : NSObject
+
 @property (nonatomic,strong) Memento *memnto;
 
 @end

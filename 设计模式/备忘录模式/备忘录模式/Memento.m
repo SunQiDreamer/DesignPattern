@@ -9,8 +9,7 @@
 #import "Memento.h"
 
 @implementation Memento
-- (instancetype)initWithState:(NSString *)state
-{
+- (instancetype)initWithState:(NSString *)state {
     if (self = [super init]) {
         _state = state;
     }

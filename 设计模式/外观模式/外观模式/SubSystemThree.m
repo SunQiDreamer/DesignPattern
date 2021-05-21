@@ -9,8 +9,7 @@
 #import "SubSystemThree.h"
 
 @implementation SubSystemThree
-- (void)methodThree
-{
+- (void)methodThree {
     NSLog(@"子系统方法三");
 }
 

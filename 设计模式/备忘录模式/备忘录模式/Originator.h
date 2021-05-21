@@ -9,8 +9,13 @@
 #import <Foundation/Foundation.h>
 @class Memento;
 @interface Originator : NSObject
+
 @property (nonatomic,strong) NSString *state;
+
 @property (nonatomic,strong) Memento *memnto;
+
 - (Memento *)createMemento;
+
 - (void)show;
+
 @end
