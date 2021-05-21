@@ -8,6 +8,6 @@
 
 #import "Abstraction.h"
 
-@interface RefinedAbstraction : Abstraction
+@interface RefinedAbstraction : NSObject<Abstraction>
 
 @end

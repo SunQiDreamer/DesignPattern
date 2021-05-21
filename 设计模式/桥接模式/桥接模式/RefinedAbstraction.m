@@ -9,7 +9,11 @@
 #import "RefinedAbstraction.h"
 
 @implementation RefinedAbstraction
+@synthesize implementor;
+
 - (void)operation {
+    //帮助我的人执行任务
     [self.implementor operation];
 }
+
 @end

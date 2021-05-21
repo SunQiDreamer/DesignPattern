@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "Implementor.h"
 
-@interface Abstraction : NSObject
-@property (nonatomic,strong) Implementor *implementor;
+@protocol Abstraction <NSObject>
+
+@property (nonatomic, strong) id<Implementor> implementor;
+
 - (void)operation;
+
 @end

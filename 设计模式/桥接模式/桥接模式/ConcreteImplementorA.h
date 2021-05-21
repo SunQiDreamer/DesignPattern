@@ -8,6 +8,6 @@
 
 #import "Implementor.h"
 
-@interface ConcreteImplementorA : Implementor
+@interface ConcreteImplementorA : NSObject<Implementor>
 
 @end

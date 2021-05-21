@@ -15,10 +15,8 @@
 		AC9ECB221FDC21730045615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB211FDC21730045615E /* main.m */; };
 		AC9ECB2C1FDC21740045615E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB2B1FDC21740045615E /* ____Tests.m */; };
 		AC9ECB371FDC21740045615E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB361FDC21740045615E /* ____UITests.m */; };
-		AC9ECB461FDC24360045615E /* Implementor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB451FDC24360045615E /* Implementor.m */; };
 		AC9ECB491FDC24670045615E /* ConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB481FDC24670045615E /* ConcreteImplementorA.m */; };
 		AC9ECB4C1FDC24720045615E /* ConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB4B1FDC24720045615E /* ConcreteImplementorB.m */; };
-		AC9ECB4F1FDC24860045615E /* Abstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB4E1FDC24860045615E /* Abstraction.m */; };
 		AC9ECB521FDC24A70045615E /* RefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECB511FDC24A70045615E /* RefinedAbstraction.m */; };
 /* End PBXBuildFile section */
 
@@ -57,13 +55,11 @@
 		AC9ECB361FDC21740045615E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		AC9ECB381FDC21740045615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9ECB441FDC24360045615E /* Implementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Implementor.h; sourceTree = "<group>"; };
-		AC9ECB451FDC24360045615E /* Implementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Implementor.m; sourceTree = "<group>"; };
 		AC9ECB471FDC24670045615E /* ConcreteImplementorA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementorA.h; sourceTree = "<group>"; };
 		AC9ECB481FDC24670045615E /* ConcreteImplementorA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementorA.m; sourceTree = "<group>"; };
 		AC9ECB4A1FDC24720045615E /* ConcreteImplementorB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementorB.h; sourceTree = "<group>"; };
 		AC9ECB4B1FDC24720045615E /* ConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementorB.m; sourceTree = "<group>"; };
 		AC9ECB4D1FDC24860045615E /* Abstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Abstraction.h; sourceTree = "<group>"; };
-		AC9ECB4E1FDC24860045615E /* Abstraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abstraction.m; sourceTree = "<group>"; };
 		AC9ECB501FDC24A70045615E /* RefinedAbstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefinedAbstraction.h; sourceTree = "<group>"; };
 		AC9ECB511FDC24A70045615E /* RefinedAbstraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefinedAbstraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,13 +122,11 @@
 				AC9ECB201FDC21730045615E /* Info.plist */,
 				AC9ECB211FDC21730045615E /* main.m */,
 				AC9ECB441FDC24360045615E /* Implementor.h */,
-				AC9ECB451FDC24360045615E /* Implementor.m */,
 				AC9ECB471FDC24670045615E /* ConcreteImplementorA.h */,
 				AC9ECB481FDC24670045615E /* ConcreteImplementorA.m */,
 				AC9ECB4A1FDC24720045615E /* ConcreteImplementorB.h */,
 				AC9ECB4B1FDC24720045615E /* ConcreteImplementorB.m */,
 				AC9ECB4D1FDC24860045615E /* Abstraction.h */,
-				AC9ECB4E1FDC24860045615E /* Abstraction.m */,
 				AC9ECB501FDC24A70045615E /* RefinedAbstraction.h */,
 				AC9ECB511FDC24A70045615E /* RefinedAbstraction.m */,
 			);
@@ -290,9 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9ECB461FDC24360045615E /* Implementor.m in Sources */,
 				AC9ECB171FDC21730045615E /* ViewController.m in Sources */,
-				AC9ECB4F1FDC24860045615E /* Abstraction.m in Sources */,
 				AC9ECB4C1FDC24720045615E /* ConcreteImplementorB.m in Sources */,
 				AC9ECB221FDC21730045615E /* main.m in Sources */,
 				AC9ECB491FDC24670045615E /* ConcreteImplementorA.m in Sources */,
@@ -461,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "桥接模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.----";
@@ -474,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "桥接模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.----";
