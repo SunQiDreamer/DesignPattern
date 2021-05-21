@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Observe : NSObject
+@protocol Observe <NSObject>
+
 - (void)update;
+
 @end

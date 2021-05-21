@@ -9,6 +9,6 @@
 #import "Observe.h"
 @class ConcreteSubject;
 
-@interface ConcreteObserve : Observe
+@interface ConcreteObserve : NSObject<Observe>
 - (instancetype)initWithSubject:(ConcreteSubject *)subject name:(NSString *)name;
 @end

@@ -11,29 +11,26 @@
 
 @interface Subject()
 
-@property (nonatomic,strong) NSMutableArray <Observe *>*observes;
+@property (nonatomic,strong) NSMutableArray <id<Observe>>*observes;
 
 @end
 
 @implementation Subject
-- (void)attach:(Observe *)observer
-{
+- (void)attach:(id<Observe>)observer {
     [self.observes addObject:observer];
 }
 
-- (void)detach:(Observe *)observer
-{
+- (void)detach:(id<Observe>)observer {
     [self.observes removeObject:observer];
 }
 
-- (void)notify
-{
-    for (Observe *observe in self.observes) {
+- (void)notify {
+    for (id<Observe> observe in self.observes) {
         [observe update];
     }
 }
 
-- (NSMutableArray<Observe *> *)observes{
+- (NSMutableArray<id<Observe>> *)observes {
     if (!_observes) {
         self.observes = [[NSMutableArray alloc]init];
     }

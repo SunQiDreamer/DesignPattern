@@ -6,10 +6,12 @@
 //  Copyright © 2017年 BlueMobi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@class Observe;
+#import "Observe.h"
+
 @interface Subject : NSObject
-- (void)attach:(Observe *)observer;
-- (void)detach:(Observe *)observer;
+
+- (void)attach:(id<Observe>)observer;
+- (void)detach:(id<Observe>)observer;
 - (void)notify;
+
 @end

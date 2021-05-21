@@ -16,7 +16,6 @@
 		ACDDE7DC1E4EF97E00A2AE34 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7DB1E4EF97E00A2AE34 /* _____Tests.m */; };
 		ACDDE7E71E4EF97F00A2AE34 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7E61E4EF97F00A2AE34 /* _____UITests.m */; };
 		ACDDE7F61E4EF99700A2AE34 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7F51E4EF99700A2AE34 /* Subject.m */; };
-		ACDDE7F91E4EF9A500A2AE34 /* Observe.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7F81E4EF9A500A2AE34 /* Observe.m */; };
 		ACDDE7FC1E4EFCF600A2AE34 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7FB1E4EFCF600A2AE34 /* ConcreteSubject.m */; };
 		ACDDE7FF1E4EFD0700A2AE34 /* ConcreteObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7FE1E4EFD0700A2AE34 /* ConcreteObserve.m */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		ACDDE7F41E4EF99700A2AE34 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		ACDDE7F51E4EF99700A2AE34 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 		ACDDE7F71E4EF9A500A2AE34 /* Observe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observe.h; sourceTree = "<group>"; };
-		ACDDE7F81E4EF9A500A2AE34 /* Observe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observe.m; sourceTree = "<group>"; };
 		ACDDE7FA1E4EFCF600A2AE34 /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
 		ACDDE7FB1E4EFCF600A2AE34 /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
 		ACDDE7FD1E4EFD0700A2AE34 /* ConcreteObserve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserve.h; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				ACDDE7FA1E4EFCF600A2AE34 /* ConcreteSubject.h */,
 				ACDDE7FB1E4EFCF600A2AE34 /* ConcreteSubject.m */,
 				ACDDE7F71E4EF9A500A2AE34 /* Observe.h */,
-				ACDDE7F81E4EF9A500A2AE34 /* Observe.m */,
 				ACDDE7FD1E4EFD0700A2AE34 /* ConcreteObserve.h */,
 				ACDDE7FE1E4EFD0700A2AE34 /* ConcreteObserve.m */,
 			);
@@ -227,6 +224,7 @@
 				TargetAttributes = {
 					ACDDE7BD1E4EF97E00A2AE34 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4EH4PGQM4J;
 						ProvisioningStyle = Automatic;
 					};
 					ACDDE7D61E4EF97E00A2AE34 = {
@@ -246,6 +244,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -294,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDDE7F61E4EF99700A2AE34 /* Subject.m in Sources */,
-				ACDDE7F91E4EF9A500A2AE34 /* Observe.m in Sources */,
 				ACDDE7C91E4EF97E00A2AE34 /* ViewController.m in Sources */,
 				ACDDE7FC1E4EFCF600A2AE34 /* ConcreteSubject.m in Sources */,
 				ACDDE7FF1E4EFD0700A2AE34 /* ConcreteObserve.m in Sources */,
@@ -448,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "观察者模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.-----";
@@ -459,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "观察者模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.-----";
@@ -531,6 +531,7 @@
 				ACDDE7ED1E4EF97F00A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACDDE7EE1E4EF97F00A2AE34 /* Build configuration list for PBXNativeTarget "观察者模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				ACDDE7F01E4EF97F00A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACDDE7F11E4EF97F00A2AE34 /* Build configuration list for PBXNativeTarget "观察者模式UITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				ACDDE7F31E4EF97F00A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

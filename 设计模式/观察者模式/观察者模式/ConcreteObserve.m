@@ -17,17 +17,16 @@
 @end
 
 @implementation ConcreteObserve
-- (instancetype)initWithSubject:(ConcreteSubject *)subject name:(NSString *)name
-{
+- (instancetype)initWithSubject:(ConcreteSubject *)subject name:(NSString *)name {
     if (self = [super init]) {
         _subject = subject;
         _name = name;
     }
     return self;
 }
-- (void)update
-{
+
+- (void)update {
     self.observeState = self.subject.subjectState;
-    NSLog(@"观察者%@的状态%@",self.name,self.observeState);
+    NSLog(@"观察者%@的状态%@", self.name, self.observeState);
 }
 @end
