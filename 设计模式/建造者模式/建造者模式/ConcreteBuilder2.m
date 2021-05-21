@@ -24,12 +24,11 @@
 }
 
 - (void)buildPartA {
-    NSLog(@"x");
+    [self.product add:@"x"];
 }
 
 - (void)buildPartB {
-    NSLog(@"y");
-    
+    [self.product add:@"y"];
 }
 
 - (Product *)getResult {
