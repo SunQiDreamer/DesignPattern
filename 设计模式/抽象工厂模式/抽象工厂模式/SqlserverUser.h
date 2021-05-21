@@ -8,6 +8,6 @@
 
 #import "IUser.h"
 
-@interface SqlserverUser : IUser
+@interface SqlserverUser : NSObject<IUser>
 
 @end

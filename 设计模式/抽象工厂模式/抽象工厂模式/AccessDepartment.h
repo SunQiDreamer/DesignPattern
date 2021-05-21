@@ -8,6 +8,6 @@
 
 #import "IDepartment.h"
 
-@interface AccessDepartment : IDepartment
+@interface AccessDepartment : NSObject<IDepartment>
 
 @end

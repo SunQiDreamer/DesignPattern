@@ -8,6 +8,6 @@
 
 #import "IFactory.h"
 
-@interface SqlServeFactory : IFactory
+@interface SqlServeFactory : NSObject<IFactory>
 
 @end

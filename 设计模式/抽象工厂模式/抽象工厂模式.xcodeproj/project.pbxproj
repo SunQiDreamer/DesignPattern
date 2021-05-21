@@ -7,27 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC3C10B61EE583D800DD4B1E /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10B51EE583D800DD4B1E /* Product.m */; };
-		AC3C10B91EE5850500DD4B1E /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10B81EE5850500DD4B1E /* Builder.m */; };
-		AC3C10BC1EE5855E00DD4B1E /* ConcreteBuilder1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10BB1EE5855E00DD4B1E /* ConcreteBuilder1.m */; };
-		AC3C10BF1EE585FA00DD4B1E /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10BE1EE585FA00DD4B1E /* Director.m */; };
-		AC3C10C31EE5880400DD4B1E /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10C21EE5880400DD4B1E /* Subject.m */; };
-		AC3C10C61EE5885A00DD4B1E /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10C51EE5885A00DD4B1E /* Observer.m */; };
-		AC3C10C91EE589AA00DD4B1E /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10C81EE589AA00DD4B1E /* ConcreteSubject.m */; };
-		AC3C10CC1EE58A3F00DD4B1E /* ConcreteObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10CB1EE58A3F00DD4B1E /* ConcreteObserve.m */; };
-		AC3C10D01EE59B9000DD4B1E /* IDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10CF1EE59B9000DD4B1E /* IDepartment.m */; };
 		AC3C10D31EE59C1700DD4B1E /* SqlserverDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10D21EE59C1700DD4B1E /* SqlserverDepartment.m */; };
 		AC3C10D61EE59C6500DD4B1E /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10D51EE59C6500DD4B1E /* AccessDepartment.m */; };
-		AC3C10D91EE59CB400DD4B1E /* IFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10D81EE59CB400DD4B1E /* IFactory.m */; };
 		AC3C10DC1EE59D0600DD4B1E /* SqlServeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10DB1EE59D0600DD4B1E /* SqlServeFactory.m */; };
-		AC3C10DF1EE59D4100DD4B1E /* IUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10DE1EE59D4100DD4B1E /* IUser.m */; };
 		AC3C10E21EE59D7A00DD4B1E /* SqlserverUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10E11EE59D7A00DD4B1E /* SqlserverUser.m */; };
 		AC3C10E51EE59DDB00DD4B1E /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10E41EE59DDB00DD4B1E /* AccessUser.m */; };
 		AC3C10E81EE59F5C00DD4B1E /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10E71EE59F5C00DD4B1E /* AccessFactory.m */; };
-		AC3C10EC1EE5A23500DD4B1E /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10EB1EE5A23500DD4B1E /* State.m */; };
-		AC3C10EF1EE5A24800DD4B1E /* ConcreteStateA.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10EE1EE5A24800DD4B1E /* ConcreteStateA.m */; };
-		AC3C10F21EE5A25300DD4B1E /* ConcreteStateB.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10F11EE5A25300DD4B1E /* ConcreteStateB.m */; };
-		AC3C10F51EE5A26000DD4B1E /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C10F41EE5A26000DD4B1E /* Context.m */; };
 		ACDDE97D1E54AE1300A2AE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE97C1E54AE1300A2AE34 /* main.m */; };
 		ACDDE9801E54AE1300A2AE34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE97F1E54AE1300A2AE34 /* AppDelegate.m */; };
 		ACDDE9831E54AE1300A2AE34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE9821E54AE1300A2AE34 /* ViewController.m */; };
@@ -56,48 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC3C10B41EE583D800DD4B1E /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		AC3C10B51EE583D800DD4B1E /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
-		AC3C10B71EE5850500DD4B1E /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
-		AC3C10B81EE5850500DD4B1E /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
-		AC3C10BA1EE5855E00DD4B1E /* ConcreteBuilder1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteBuilder1.h; sourceTree = "<group>"; };
-		AC3C10BB1EE5855E00DD4B1E /* ConcreteBuilder1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteBuilder1.m; sourceTree = "<group>"; };
-		AC3C10BD1EE585FA00DD4B1E /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
-		AC3C10BE1EE585FA00DD4B1E /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
-		AC3C10C11EE5880400DD4B1E /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
-		AC3C10C21EE5880400DD4B1E /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
-		AC3C10C41EE5885A00DD4B1E /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
-		AC3C10C51EE5885A00DD4B1E /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
-		AC3C10C71EE589AA00DD4B1E /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
-		AC3C10C81EE589AA00DD4B1E /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
-		AC3C10CA1EE58A3F00DD4B1E /* ConcreteObserve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserve.h; sourceTree = "<group>"; };
-		AC3C10CB1EE58A3F00DD4B1E /* ConcreteObserve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteObserve.m; sourceTree = "<group>"; };
 		AC3C10CE1EE59B9000DD4B1E /* IDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDepartment.h; sourceTree = "<group>"; };
-		AC3C10CF1EE59B9000DD4B1E /* IDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDepartment.m; sourceTree = "<group>"; };
 		AC3C10D11EE59C1700DD4B1E /* SqlserverDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlserverDepartment.h; sourceTree = "<group>"; };
 		AC3C10D21EE59C1700DD4B1E /* SqlserverDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlserverDepartment.m; sourceTree = "<group>"; };
 		AC3C10D41EE59C6500DD4B1E /* AccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
 		AC3C10D51EE59C6500DD4B1E /* AccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
 		AC3C10D71EE59CB400DD4B1E /* IFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFactory.h; sourceTree = "<group>"; };
-		AC3C10D81EE59CB400DD4B1E /* IFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFactory.m; sourceTree = "<group>"; };
 		AC3C10DA1EE59D0600DD4B1E /* SqlServeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlServeFactory.h; sourceTree = "<group>"; };
 		AC3C10DB1EE59D0600DD4B1E /* SqlServeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlServeFactory.m; sourceTree = "<group>"; };
 		AC3C10DD1EE59D4100DD4B1E /* IUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUser.h; sourceTree = "<group>"; };
-		AC3C10DE1EE59D4100DD4B1E /* IUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUser.m; sourceTree = "<group>"; };
 		AC3C10E01EE59D7A00DD4B1E /* SqlserverUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlserverUser.h; sourceTree = "<group>"; };
 		AC3C10E11EE59D7A00DD4B1E /* SqlserverUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlserverUser.m; sourceTree = "<group>"; };
 		AC3C10E31EE59DDB00DD4B1E /* AccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessUser.h; sourceTree = "<group>"; };
 		AC3C10E41EE59DDB00DD4B1E /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
 		AC3C10E61EE59F5C00DD4B1E /* AccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
 		AC3C10E71EE59F5C00DD4B1E /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
-		AC3C10EA1EE5A23500DD4B1E /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
-		AC3C10EB1EE5A23500DD4B1E /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
-		AC3C10ED1EE5A24800DD4B1E /* ConcreteStateA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStateA.h; sourceTree = "<group>"; };
-		AC3C10EE1EE5A24800DD4B1E /* ConcreteStateA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteStateA.m; sourceTree = "<group>"; };
-		AC3C10F01EE5A25300DD4B1E /* ConcreteStateB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStateB.h; sourceTree = "<group>"; };
-		AC3C10F11EE5A25300DD4B1E /* ConcreteStateB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteStateB.m; sourceTree = "<group>"; };
-		AC3C10F31EE5A26000DD4B1E /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
-		AC3C10F41EE5A26000DD4B1E /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
 		ACDDE9781E54AE1300A2AE34 /* 抽象工厂模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽象工厂模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDDE97C1E54AE1300A2AE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACDDE97E1E54AE1300A2AE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,55 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC3C10B31EE583B200DD4B1E /* 建造者模式 */ = {
-			isa = PBXGroup;
-			children = (
-				AC3C10B41EE583D800DD4B1E /* Product.h */,
-				AC3C10B51EE583D800DD4B1E /* Product.m */,
-				AC3C10B71EE5850500DD4B1E /* Builder.h */,
-				AC3C10B81EE5850500DD4B1E /* Builder.m */,
-				AC3C10BA1EE5855E00DD4B1E /* ConcreteBuilder1.h */,
-				AC3C10BB1EE5855E00DD4B1E /* ConcreteBuilder1.m */,
-				AC3C10BD1EE585FA00DD4B1E /* Director.h */,
-				AC3C10BE1EE585FA00DD4B1E /* Director.m */,
-			);
-			name = "建造者模式";
-			path = "抽象工厂模式";
-			sourceTree = "<group>";
-		};
-		AC3C10C01EE587BC00DD4B1E /* 观察者模式 */ = {
-			isa = PBXGroup;
-			children = (
-				AC3C10C11EE5880400DD4B1E /* Subject.h */,
-				AC3C10C21EE5880400DD4B1E /* Subject.m */,
-				AC3C10C71EE589AA00DD4B1E /* ConcreteSubject.h */,
-				AC3C10C81EE589AA00DD4B1E /* ConcreteSubject.m */,
-				AC3C10C41EE5885A00DD4B1E /* Observer.h */,
-				AC3C10C51EE5885A00DD4B1E /* Observer.m */,
-				AC3C10CA1EE58A3F00DD4B1E /* ConcreteObserve.h */,
-				AC3C10CB1EE58A3F00DD4B1E /* ConcreteObserve.m */,
-			);
-			name = "观察者模式";
-			path = "抽象工厂模式";
-			sourceTree = "<group>";
-		};
 		AC3C10CD1EE59AEB00DD4B1E /* 抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
 				AC3C10DD1EE59D4100DD4B1E /* IUser.h */,
-				AC3C10DE1EE59D4100DD4B1E /* IUser.m */,
 				AC3C10E01EE59D7A00DD4B1E /* SqlserverUser.h */,
 				AC3C10E11EE59D7A00DD4B1E /* SqlserverUser.m */,
 				AC3C10E31EE59DDB00DD4B1E /* AccessUser.h */,
 				AC3C10E41EE59DDB00DD4B1E /* AccessUser.m */,
 				AC3C10CE1EE59B9000DD4B1E /* IDepartment.h */,
-				AC3C10CF1EE59B9000DD4B1E /* IDepartment.m */,
 				AC3C10D11EE59C1700DD4B1E /* SqlserverDepartment.h */,
 				AC3C10D21EE59C1700DD4B1E /* SqlserverDepartment.m */,
 				AC3C10D41EE59C6500DD4B1E /* AccessDepartment.h */,
 				AC3C10D51EE59C6500DD4B1E /* AccessDepartment.m */,
 				AC3C10D71EE59CB400DD4B1E /* IFactory.h */,
-				AC3C10D81EE59CB400DD4B1E /* IFactory.m */,
 				AC3C10DA1EE59D0600DD4B1E /* SqlServeFactory.h */,
 				AC3C10DB1EE59D0600DD4B1E /* SqlServeFactory.m */,
 				AC3C10E61EE59F5C00DD4B1E /* AccessFactory.h */,
@@ -198,30 +121,11 @@
 			path = "抽象工厂模式";
 			sourceTree = "<group>";
 		};
-		AC3C10E91EE5A20F00DD4B1E /* 状态模式 */ = {
-			isa = PBXGroup;
-			children = (
-				AC3C10EA1EE5A23500DD4B1E /* State.h */,
-				AC3C10EB1EE5A23500DD4B1E /* State.m */,
-				AC3C10ED1EE5A24800DD4B1E /* ConcreteStateA.h */,
-				AC3C10EE1EE5A24800DD4B1E /* ConcreteStateA.m */,
-				AC3C10F01EE5A25300DD4B1E /* ConcreteStateB.h */,
-				AC3C10F11EE5A25300DD4B1E /* ConcreteStateB.m */,
-				AC3C10F31EE5A26000DD4B1E /* Context.h */,
-				AC3C10F41EE5A26000DD4B1E /* Context.m */,
-			);
-			name = "状态模式";
-			path = "抽象工厂模式";
-			sourceTree = "<group>";
-		};
 		ACDDE96F1E54AE1300A2AE34 = {
 			isa = PBXGroup;
 			children = (
 				ACDDE97A1E54AE1300A2AE34 /* 抽象工厂模式 */,
-				AC3C10B31EE583B200DD4B1E /* 建造者模式 */,
-				AC3C10C01EE587BC00DD4B1E /* 观察者模式 */,
 				AC3C10CD1EE59AEB00DD4B1E /* 抽象工厂模式 */,
-				AC3C10E91EE5A20F00DD4B1E /* 状态模式 */,
 				ACDDE9941E54AE1300A2AE34 /* 抽象工厂模式Tests */,
 				ACDDE99F1E54AE1300A2AE34 /* 抽象工厂模式UITests */,
 				ACDDE9791E54AE1300A2AE34 /* Products */,
@@ -347,6 +251,7 @@
 				TargetAttributes = {
 					ACDDE9771E54AE1300A2AE34 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4EH4PGQM4J;
 						ProvisioningStyle = Automatic;
 					};
 					ACDDE9901E54AE1300A2AE34 = {
@@ -366,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -414,28 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDDE9831E54AE1300A2AE34 /* ViewController.m in Sources */,
-				AC3C10F51EE5A26000DD4B1E /* Context.m in Sources */,
-				AC3C10F21EE5A25300DD4B1E /* ConcreteStateB.m in Sources */,
-				AC3C10D01EE59B9000DD4B1E /* IDepartment.m in Sources */,
-				AC3C10C91EE589AA00DD4B1E /* ConcreteSubject.m in Sources */,
 				AC3C10E51EE59DDB00DD4B1E /* AccessUser.m in Sources */,
 				AC3C10D61EE59C6500DD4B1E /* AccessDepartment.m in Sources */,
 				AC3C10E21EE59D7A00DD4B1E /* SqlserverUser.m in Sources */,
-				AC3C10B61EE583D800DD4B1E /* Product.m in Sources */,
 				ACDDE9801E54AE1300A2AE34 /* AppDelegate.m in Sources */,
 				AC3C10E81EE59F5C00DD4B1E /* AccessFactory.m in Sources */,
-				AC3C10C61EE5885A00DD4B1E /* Observer.m in Sources */,
-				AC3C10EF1EE5A24800DD4B1E /* ConcreteStateA.m in Sources */,
-				AC3C10B91EE5850500DD4B1E /* Builder.m in Sources */,
-				AC3C10DF1EE59D4100DD4B1E /* IUser.m in Sources */,
-				AC3C10D91EE59CB400DD4B1E /* IFactory.m in Sources */,
 				AC3C10DC1EE59D0600DD4B1E /* SqlServeFactory.m in Sources */,
-				AC3C10C31EE5880400DD4B1E /* Subject.m in Sources */,
-				AC3C10BF1EE585FA00DD4B1E /* Director.m in Sources */,
 				AC3C10D31EE59C1700DD4B1E /* SqlserverDepartment.m in Sources */,
-				AC3C10BC1EE5855E00DD4B1E /* ConcreteBuilder1.m in Sources */,
-				AC3C10EC1EE5A23500DD4B1E /* State.m in Sources */,
-				AC3C10CC1EE58A3F00DD4B1E /* ConcreteObserve.m in Sources */,
 				ACDDE97D1E54AE1300A2AE34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "抽象工厂模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.------";
@@ -596,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "抽象工厂模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.------";

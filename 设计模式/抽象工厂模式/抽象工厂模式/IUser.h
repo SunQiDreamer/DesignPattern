@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IUser : NSObject
+@protocol IUser <NSObject>
+
 - (void)insert:(NSString *)user;
+
 - (NSString *)getUser:(int)ID;
+
 @end

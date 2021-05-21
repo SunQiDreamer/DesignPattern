@@ -6,9 +6,12 @@
 //  Copyright © 2017年 BlueMobi. All rights reserved.
 //
 
-#import "Observer.h"
+#import <Foundation/Foundation.h>
 
-@interface IDepartment : Observer
+@protocol IDepartment <NSObject>
+
 - (void)insert:(NSString *)string;
+
 - (NSString *)getDepartment:(int)ID;
+
 @end

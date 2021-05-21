@@ -8,6 +8,6 @@
 
 #import "IDepartment.h"
 
-@interface SqlserverDepartment : IDepartment
+@interface SqlserverDepartment : NSObject<IDepartment>
 
 @end

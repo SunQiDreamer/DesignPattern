@@ -8,6 +8,6 @@
 
 #import "IFactory.h"
 
-@interface AccessFactory : IFactory
+@interface AccessFactory : NSObject<IFactory>
 
 @end

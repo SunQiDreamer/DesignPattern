@@ -8,6 +8,6 @@
 
 #import "IUser.h"
 
-@interface AccessUser : IUser
+@interface AccessUser : NSObject<IUser>
 
 @end

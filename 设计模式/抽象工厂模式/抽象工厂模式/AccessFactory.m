@@ -11,11 +11,11 @@
 #import "AccessDepartment.h"
 
 @implementation AccessFactory
-- (IUser *)createUser {
+- (id<IUser>)createUser {
     return [AccessUser new];
 }
 
-- (IDepartment *)createDepartment {
-    return [IDepartment new];
+- (id<IDepartment>)createDepartment {
+    return [AccessDepartment new];
 }
 @end

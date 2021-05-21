@@ -11,11 +11,12 @@
 #import "SqlserverDepartment.h"
 
 @implementation SqlServeFactory
-- (IUser *)createUser {
+
+- (id<IUser>)createUser {
     return [SqlserverUser new];
 }
 
-- (IDepartment *)createDepartment {
+- (id<IDepartment>)createDepartment {
     return [SqlserverDepartment new];
 }
 

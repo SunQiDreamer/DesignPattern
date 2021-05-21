@@ -7,9 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-@class IUser;
-@class IDepartment;
-@interface IFactory : NSObject
-- (IUser *)createUser;
-- (IDepartment *)createDepartment;
+#import "IUser.h"
+#import "IDepartment.h"
+
+@protocol IFactory <NSObject>
+
+- (id<IUser>)createUser;
+
+- (id<IDepartment>)createDepartment;
+
 @end
