@@ -9,8 +9,7 @@
 #import "Target.h"
 
 @implementation Target
-- (void)request
-{
-    NSLog(@"普通请求");
+- (void)request {
+    NSLog(@"国内充上电");
 }
 @end

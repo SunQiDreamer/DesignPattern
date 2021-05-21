@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Adaptee : NSObject
+// 电源适配器充电
 - (void)sepcificRequest;
 @end

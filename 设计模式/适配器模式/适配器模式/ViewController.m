@@ -19,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // 去东南亚旅游，充电器需要装一个电源适配器
     Target *target = [Adapter new];
     [target request];
 }

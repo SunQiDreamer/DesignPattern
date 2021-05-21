@@ -19,13 +19,15 @@
 
 - (instancetype)init{
     if (self = [super init]) {
+        // 初始化适配器
         _adaptee = [[Adaptee alloc] init];
     }
     return self;
 }
 
-- (void)request
-{
+- (void)request {
+    // 转换成适配器充电
     [self.adaptee sepcificRequest];
 }
+
 @end

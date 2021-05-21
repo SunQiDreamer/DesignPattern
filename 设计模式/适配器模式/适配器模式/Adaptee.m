@@ -9,8 +9,7 @@
 #import "Adaptee.h"
 
 @implementation Adaptee
-- (void)sepcificRequest
-{
-    NSLog(@"特殊的请求");
+- (void)sepcificRequest {
+    NSLog(@"东南亚的插座充电");
 }
 @end

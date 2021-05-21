@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Target : NSObject
+// 原来的充电器充电
 - (void)request;
 @end
