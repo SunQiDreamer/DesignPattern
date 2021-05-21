@@ -9,7 +9,8 @@
 #import "Subject.h"
 #import "RealSubject.h"
 
-@interface Proxy : Subject
-@property (nonatomic,strong) RealSubject *realSubject;
+@interface Proxy : NSObject<Subject>
+
+@property (nonatomic, strong, readonly) RealSubject *realSubject;
 
 @end

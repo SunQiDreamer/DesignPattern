@@ -15,7 +15,6 @@
 		AC9ECC4D1FE545DA0045615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECC4C1FE545DA0045615E /* main.m */; };
 		AC9ECC571FE545DA0045615E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECC561FE545DA0045615E /* ____Tests.m */; };
 		AC9ECC621FE545DA0045615E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECC611FE545DA0045615E /* ____UITests.m */; };
-		AC9ECC711FE546050045615E /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECC701FE546050045615E /* Subject.m */; };
 		AC9ECC741FE546270045615E /* RealSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECC731FE546270045615E /* RealSubject.m */; };
 		AC9ECC771FE546570045615E /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECC761FE546570045615E /* Proxy.m */; };
 /* End PBXBuildFile section */
@@ -55,7 +54,6 @@
 		AC9ECC611FE545DA0045615E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		AC9ECC631FE545DA0045615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9ECC6F1FE546050045615E /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
-		AC9ECC701FE546050045615E /* Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 		AC9ECC721FE546270045615E /* RealSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealSubject.h; sourceTree = "<group>"; };
 		AC9ECC731FE546270045615E /* RealSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealSubject.m; sourceTree = "<group>"; };
 		AC9ECC751FE546570045615E /* Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 				AC9ECC4B1FE545D90045615E /* Info.plist */,
 				AC9ECC4C1FE545DA0045615E /* main.m */,
 				AC9ECC6F1FE546050045615E /* Subject.h */,
-				AC9ECC701FE546050045615E /* Subject.m */,
 				AC9ECC721FE546270045615E /* RealSubject.h */,
 				AC9ECC731FE546270045615E /* RealSubject.m */,
 				AC9ECC751FE546570045615E /* Proxy.h */,
@@ -281,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9ECC771FE546570045615E /* Proxy.m in Sources */,
-				AC9ECC711FE546050045615E /* Subject.m in Sources */,
 				AC9ECC421FE545D90045615E /* ViewController.m in Sources */,
 				AC9ECC4D1FE545DA0045615E /* main.m in Sources */,
 				AC9ECC3F1FE545D90045615E /* AppDelegate.m in Sources */,

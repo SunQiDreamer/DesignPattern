@@ -8,6 +8,12 @@
 
 #import "Proxy.h"
 
+@interface Proxy ()
+
+@property (nonatomic, strong) RealSubject *realSubject;
+
+@end
+
 @implementation Proxy
 - (void)request {
     if (self.realSubject == nil) {

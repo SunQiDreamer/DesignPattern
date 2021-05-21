@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Subject : NSObject
+@protocol Subject <NSObject>
+
 - (void)request;
 @end

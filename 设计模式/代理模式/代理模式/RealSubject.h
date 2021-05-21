@@ -8,6 +8,6 @@
 
 #import "Subject.h"
 
-@interface RealSubject : Subject
+@interface RealSubject : NSObject<Subject>
 
 @end
