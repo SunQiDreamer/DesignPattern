@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Component : NSObject
+@protocol Component <NSObject>
+
 - (void)operation;
+
 @end

@@ -9,8 +9,7 @@
 #import "Decoratior.h"
 
 @implementation Decoratior
-- (void)operation
-{
+- (void)operation {
     if (self.component != nil) {
         [self.component operation];
     }

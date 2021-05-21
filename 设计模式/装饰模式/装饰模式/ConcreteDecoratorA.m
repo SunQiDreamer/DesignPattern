@@ -9,8 +9,7 @@
 #import "ConcreteDecoratorA.h"
 
 @implementation ConcreteDecoratorA
-- (void)operation
-{
+- (void)operation {
     [super operation];
     NSLog(@"具体装饰对象A的操作");
 }

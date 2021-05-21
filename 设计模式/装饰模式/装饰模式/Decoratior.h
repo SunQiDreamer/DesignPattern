@@ -8,8 +8,8 @@
 
 #import "Component.h"
 
-@interface Decoratior : Component
+@interface Decoratior : NSObject<Component>
 
-@property (nonatomic,strong) Component *component;
+@property (nonatomic, strong) id<Component> component;
 
 @end

@@ -9,8 +9,7 @@
 #import "ConcreteComponent.h"
 
 @implementation ConcreteComponent
-- (void)operation
-{
+- (void)operation {
     NSLog(@"具体对象的操作");
 }
 @end

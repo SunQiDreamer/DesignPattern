@@ -8,6 +8,6 @@
 
 #import "Component.h"
 
-@interface ConcreteComponent : Component
+@interface ConcreteComponent :  NSObject<Component>
 
 @end

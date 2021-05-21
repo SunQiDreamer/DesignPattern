@@ -15,7 +15,6 @@
 		AC5939871E437A7300E1EDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5939851E437A7300E1EDE5 /* LaunchScreen.storyboard */; };
 		AC5939921E437A7300E1EDE5 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939911E437A7300E1EDE5 /* ____Tests.m */; };
 		AC59399D1E437A7300E1EDE5 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC59399C1E437A7300E1EDE5 /* ____UITests.m */; };
-		AC5939AC1E437A9F00E1EDE5 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939AB1E437A9F00E1EDE5 /* Component.m */; };
 		AC5939B21E437AEA00E1EDE5 /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939B11E437AEA00E1EDE5 /* ConcreteComponent.m */; };
 		AC5939B51E437B5700E1EDE5 /* Decoratior.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939B41E437B5700E1EDE5 /* Decoratior.m */; };
 		AC5939B81E437CAE00E1EDE5 /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5939B71E437CAE00E1EDE5 /* ConcreteDecoratorA.m */; };
@@ -57,7 +56,6 @@
 		AC59399C1E437A7300E1EDE5 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		AC59399E1E437A7300E1EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5939AA1E437A9F00E1EDE5 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
-		AC5939AB1E437A9F00E1EDE5 /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
 		AC5939B01E437AEA00E1EDE5 /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
 		AC5939B11E437AEA00E1EDE5 /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
 		AC5939B31E437B5700E1EDE5 /* Decoratior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoratior.h; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				AC5939881E437A7300E1EDE5 /* Info.plist */,
 				AC5939771E437A7300E1EDE5 /* Supporting Files */,
 				AC5939AA1E437A9F00E1EDE5 /* Component.h */,
-				AC5939AB1E437A9F00E1EDE5 /* Component.m */,
 				AC5939B01E437AEA00E1EDE5 /* ConcreteComponent.h */,
 				AC5939B11E437AEA00E1EDE5 /* ConcreteComponent.m */,
 				AC5939B31E437B5700E1EDE5 /* Decoratior.h */,
@@ -251,6 +248,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -299,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC59397F1E437A7300E1EDE5 /* ViewController.m in Sources */,
-				AC5939AC1E437A9F00E1EDE5 /* Component.m in Sources */,
 				AC59397C1E437A7300E1EDE5 /* AppDelegate.m in Sources */,
 				AC5939B81E437CAE00E1EDE5 /* ConcreteDecoratorA.m in Sources */,
 				AC5939B51E437B5700E1EDE5 /* Decoratior.m in Sources */,
@@ -537,6 +534,7 @@
 				AC5939A31E437A7300E1EDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5939A41E437A7300E1EDE5 /* Build configuration list for PBXNativeTarget "装饰模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +543,7 @@
 				AC5939A61E437A7300E1EDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5939A71E437A7300E1EDE5 /* Build configuration list for PBXNativeTarget "装饰模式UITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +552,7 @@
 				AC5939A91E437A7300E1EDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
