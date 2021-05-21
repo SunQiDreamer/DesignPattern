@@ -15,7 +15,6 @@
 		AC9ECA8E1FDC08420045615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA8D1FDC08420045615E /* main.m */; };
 		AC9ECA981FDC08420045615E /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA971FDC08420045615E /* _____Tests.m */; };
 		AC9ECAA31FDC08420045615E /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECAA21FDC08420045615E /* _____UITests.m */; };
-		AC9ECAB21FDC0A240045615E /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECAB11FDC0A240045615E /* Handler.m */; };
 		AC9ECAB51FDC0B130045615E /* ConcreteHandler1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECAB41FDC0B120045615E /* ConcreteHandler1.m */; };
 		AC9ECAB81FDC0BA60045615E /* ConcreteHandler2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECAB71FDC0BA60045615E /* ConcreteHandler2.m */; };
 		AC9ECABB1FDC0C3E0045615E /* ConcreteHandler3.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECABA1FDC0C3E0045615E /* ConcreteHandler3.m */; };
@@ -56,7 +55,6 @@
 		AC9ECAA21FDC08420045615E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		AC9ECAA41FDC08420045615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9ECAB01FDC0A240045615E /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
-		AC9ECAB11FDC0A240045615E /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
 		AC9ECAB31FDC0B120045615E /* ConcreteHandler1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteHandler1.h; sourceTree = "<group>"; };
 		AC9ECAB41FDC0B120045615E /* ConcreteHandler1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteHandler1.m; sourceTree = "<group>"; };
 		AC9ECAB61FDC0BA60045615E /* ConcreteHandler2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteHandler2.h; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				AC9ECA8C1FDC08420045615E /* Info.plist */,
 				AC9ECA8D1FDC08420045615E /* main.m */,
 				AC9ECAB01FDC0A240045615E /* Handler.h */,
-				AC9ECAB11FDC0A240045615E /* Handler.m */,
 				AC9ECAB31FDC0B120045615E /* ConcreteHandler1.h */,
 				AC9ECAB41FDC0B120045615E /* ConcreteHandler1.m */,
 				AC9ECAB61FDC0BA60045615E /* ConcreteHandler2.h */,
@@ -289,7 +286,6 @@
 				AC9ECABB1FDC0C3E0045615E /* ConcreteHandler3.m in Sources */,
 				AC9ECA8E1FDC08420045615E /* main.m in Sources */,
 				AC9ECAB81FDC0BA60045615E /* ConcreteHandler2.m in Sources */,
-				AC9ECAB21FDC0A240045615E /* Handler.m in Sources */,
 				AC9ECA801FDC08420045615E /* AppDelegate.m in Sources */,
 				AC9ECAB51FDC0B130045615E /* ConcreteHandler1.m in Sources */,
 			);
@@ -455,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "职责链模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----";
@@ -468,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EH4PGQM4J;
 				INFOPLIST_FILE = "职责链模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----";

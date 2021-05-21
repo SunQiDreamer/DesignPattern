@@ -6,8 +6,9 @@
 //  Copyright © 2017年 sunqi. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "Handler.h"
 
-@interface ConcreteHandler2 : Handler
+@interface ConcreteHandler2 : NSObject <Handler>
 
 @end

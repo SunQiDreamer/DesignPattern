@@ -9,6 +9,8 @@
 #import "ConcreteHandler3.h"
 
 @implementation ConcreteHandler3
+@synthesize successor;
+
 - (void)handleRequest:(int)request {
     if (request >= 20 && request < 30) {
         NSLog(@"3 handler");

@@ -9,6 +9,8 @@
 #import "ConcreteHandler1.h"
 
 @implementation ConcreteHandler1
+@synthesize successor;
+
 - (void)handleRequest:(int)request {
     if (request >= 0 && request < 10) {
         NSLog(@"1 handler");
@@ -16,4 +18,5 @@
         [self.successor handleRequest:request];
     }
 }
+
 @end

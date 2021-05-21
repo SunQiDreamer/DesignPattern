@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+#import "Handler.h"
 
-@interface Handler : NSObject
+@protocol Handler <NSObject>
 
-@property (nonatomic,strong) Handler *successor;
+@property (nonatomic,strong) id<Handler> successor;
 
 - (void)handleRequest:(int)request;
 

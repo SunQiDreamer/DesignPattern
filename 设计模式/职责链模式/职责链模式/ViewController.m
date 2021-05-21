@@ -20,9 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Handler *h1 = [[ConcreteHandler1 alloc] init];
-    Handler *h2 = [[ConcreteHandler2 alloc] init];
-    Handler *h3 = [[ConcreteHandler3 alloc] init];
+    id<Handler> h1 = [[ConcreteHandler1 alloc] init];
+    id<Handler> h2 = [[ConcreteHandler2 alloc] init];
+    id<Handler> h3 = [[ConcreteHandler3 alloc] init];
     h1.successor = h2;
     h2.successor = h3;
     
