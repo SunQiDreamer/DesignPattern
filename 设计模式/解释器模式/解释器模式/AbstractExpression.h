@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Context.h"
 
-@interface AbstractExpression : NSObject
+@protocol AbstractExpression <NSObject>
+
 - (void)interpret:(Context *)context;
+
 @end

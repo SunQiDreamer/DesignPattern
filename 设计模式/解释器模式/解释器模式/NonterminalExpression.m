@@ -10,6 +10,6 @@
 
 @implementation NonterminalExpression
 - (void)interpret:(Context *)context {
-    NSLog(@"非终端解释器");
+    NSLog(@"非终端解释器 %@--%@", context.input, context.output);
 }
 @end

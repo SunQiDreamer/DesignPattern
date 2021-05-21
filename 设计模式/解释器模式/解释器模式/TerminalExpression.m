@@ -10,6 +10,6 @@
 
 @implementation TerminalExpression
 - (void)interpret:(Context *)context {
-    NSLog(@"终端解释器");
+    NSLog(@"终端解释器 %@--%@", context.input, context.output);
 }
 @end

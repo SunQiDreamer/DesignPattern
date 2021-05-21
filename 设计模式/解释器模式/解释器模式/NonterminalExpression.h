@@ -8,6 +8,6 @@
 
 #import "AbstractExpression.h"
 
-@interface NonterminalExpression : AbstractExpression
+@interface NonterminalExpression : NSObject<AbstractExpression>
 
 @end

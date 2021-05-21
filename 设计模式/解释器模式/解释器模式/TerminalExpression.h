@@ -8,6 +8,6 @@
 
 #import "AbstractExpression.h"
 
-@interface TerminalExpression : AbstractExpression
+@interface TerminalExpression : NSObject<AbstractExpression>
 
 @end

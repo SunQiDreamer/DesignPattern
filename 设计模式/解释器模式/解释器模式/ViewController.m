@@ -21,13 +21,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     Context *c = [[Context alloc] init];
-    NSMutableArray <AbstractExpression *> *list = [NSMutableArray array];
+    c.input = @"input";
+    c.output = @"output";
+    
+    NSMutableArray <id<AbstractExpression>> *list = [NSMutableArray array];
     [list addObject:[TerminalExpression new]];
     [list addObject:[NonterminalExpression new]];
     [list addObject:[TerminalExpression new]];
     [list addObject:[TerminalExpression new]];
     
-    for (AbstractExpression *exp in list) {
+    for (id<AbstractExpression> exp in list) {
         [exp interpret:c];
     }
 }

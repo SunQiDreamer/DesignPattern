@@ -15,7 +15,6 @@
 		AC4DDC2B1E6BECE20061D9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4DDC291E6BECE20061D9E9 /* LaunchScreen.storyboard */; };
 		AC4DDC361E6BECE20061D9E9 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC351E6BECE20061D9E9 /* _____Tests.m */; };
 		AC4DDC411E6BECE20061D9E9 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC401E6BECE20061D9E9 /* _____UITests.m */; };
-		AC9EC9D11FDB80300045615E /* AbstractExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D01FDB80300045615E /* AbstractExpression.m */; };
 		AC9EC9D41FDB84B00045615E /* TerminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D31FDB84B00045615E /* TerminalExpression.m */; };
 		AC9EC9D71FDB84E90045615E /* NonterminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D61FDB84E90045615E /* NonterminalExpression.m */; };
 		AC9EC9DA1FDB851C0045615E /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D91FDB851C0045615E /* Context.m */; };
@@ -56,7 +55,6 @@
 		AC4DDC401E6BECE20061D9E9 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		AC4DDC421E6BECE20061D9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9EC9CF1FDB80300045615E /* AbstractExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractExpression.h; sourceTree = "<group>"; };
-		AC9EC9D01FDB80300045615E /* AbstractExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractExpression.m; sourceTree = "<group>"; };
 		AC9EC9D21FDB84B00045615E /* TerminalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerminalExpression.h; sourceTree = "<group>"; };
 		AC9EC9D31FDB84B00045615E /* TerminalExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TerminalExpression.m; sourceTree = "<group>"; };
 		AC9EC9D51FDB84E90045615E /* NonterminalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonterminalExpression.h; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				AC4DDC2C1E6BECE20061D9E9 /* Info.plist */,
 				AC4DDC1B1E6BECE20061D9E9 /* Supporting Files */,
 				AC9EC9CF1FDB80300045615E /* AbstractExpression.h */,
-				AC9EC9D01FDB80300045615E /* AbstractExpression.m */,
 				AC9EC9D21FDB84B00045615E /* TerminalExpression.h */,
 				AC9EC9D31FDB84B00045615E /* TerminalExpression.m */,
 				AC9EC9D51FDB84E90045615E /* NonterminalExpression.h */,
@@ -246,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -298,7 +296,6 @@
 				AC4DDC1D1E6BECE20061D9E9 /* main.m in Sources */,
 				AC9EC9D71FDB84E90045615E /* NonterminalExpression.m in Sources */,
 				AC9EC9D41FDB84B00045615E /* TerminalExpression.m in Sources */,
-				AC9EC9D11FDB80300045615E /* AbstractExpression.m in Sources */,
 				AC9EC9DA1FDB851C0045615E /* Context.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
