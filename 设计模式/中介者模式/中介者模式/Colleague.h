@@ -6,17 +6,18 @@
 //  Copyright © 2017年 sunqi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@class Mediator;
+#import "Mediator.h"
 
 @interface Colleague : NSObject
 
-@property (nonatomic,strong) Mediator *mediator;
+@property (nonatomic, strong, readonly) id<Mediator> mediator;
 
-- (instancetype)initWithMediator:(Mediator *)mediator;
+- (instancetype)initWithMediator:(id<Mediator>)mediator;
 
+// 发送小纸条
 - (void)send:(NSString *)msg;
 
+// 读取小纸条
 - (void)notify:(NSString *)msg;
 
 @end

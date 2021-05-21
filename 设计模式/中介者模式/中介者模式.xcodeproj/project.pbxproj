@@ -15,7 +15,6 @@
 		AC9ECA411FDB91930045615E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA401FDB91930045615E /* main.m */; };
 		AC9ECA4B1FDB91930045615E /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA4A1FDB91930045615E /* _____Tests.m */; };
 		AC9ECA561FDB91930045615E /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA551FDB91930045615E /* _____UITests.m */; };
-		AC9ECA651FDB91A50045615E /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA641FDB91A50045615E /* Mediator.m */; };
 		AC9ECA681FDB91D40045615E /* Colleague.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA671FDB91D40045615E /* Colleague.m */; };
 		AC9ECA6B1FDB92B40045615E /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA6A1FDB92B40045615E /* ConcreteMediator.m */; };
 		AC9ECA6E1FDBD98E0045615E /* ConcreteColleague1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9ECA6D1FDBD98E0045615E /* ConcreteColleague1.m */; };
@@ -57,7 +56,6 @@
 		AC9ECA551FDB91930045615E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		AC9ECA571FDB91930045615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9ECA631FDB91A50045615E /* Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
-		AC9ECA641FDB91A50045615E /* Mediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
 		AC9ECA661FDB91D40045615E /* Colleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colleague.h; sourceTree = "<group>"; };
 		AC9ECA671FDB91D40045615E /* Colleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Colleague.m; sourceTree = "<group>"; };
 		AC9ECA691FDB92B40045615E /* ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				AC9ECA3F1FDB91930045615E /* Info.plist */,
 				AC9ECA401FDB91930045615E /* main.m */,
 				AC9ECA631FDB91A50045615E /* Mediator.h */,
-				AC9ECA641FDB91A50045615E /* Mediator.m */,
 				AC9ECA661FDB91D40045615E /* Colleague.h */,
 				AC9ECA671FDB91D40045615E /* Colleague.m */,
 				AC9ECA691FDB92B40045615E /* ConcreteMediator.h */,
@@ -294,7 +291,6 @@
 				AC9ECA6E1FDBD98E0045615E /* ConcreteColleague1.m in Sources */,
 				AC9ECA411FDB91930045615E /* main.m in Sources */,
 				AC9ECA681FDB91D40045615E /* Colleague.m in Sources */,
-				AC9ECA651FDB91A50045615E /* Mediator.m in Sources */,
 				AC9ECA711FDBD99B0045615E /* ConcreteColleague2.m in Sources */,
 				AC9ECA331FDB91930045615E /* AppDelegate.m in Sources */,
 				AC9ECA6B1FDB92B40045615E /* ConcreteMediator.m in Sources */,

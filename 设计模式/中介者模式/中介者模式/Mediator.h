@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 @class Colleague;
 
-@interface Mediator : NSObject
+@protocol Mediator <NSObject>
 
+// 传递小纸条
 - (void)send:(NSString *)message colleague:(Colleague *)colleague;
 
 @end

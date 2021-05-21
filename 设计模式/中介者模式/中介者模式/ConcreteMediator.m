@@ -8,17 +8,16 @@
 
 #import "ConcreteMediator.h"
 
-
-@interface ConcreteMediator ()
-
-@end
-
 @implementation ConcreteMediator
+
 - (void)send:(NSString *)message colleague:(Colleague *)colleague {
     if (colleague == self.colleague1) {
+        // 1发来的小纸条，传给2
         [self.colleague2 notify:message];
     } else {
+        // 2发来的小纸条，传给1
         [self.colleague1 notify:message];
     }
 }
+
 @end

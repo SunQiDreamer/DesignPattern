@@ -8,8 +8,6 @@
 
 #import "Colleague.h"
 
-@class Mediator;
-
 @interface ConcreteColleague1 : Colleague
 
 

@@ -9,15 +9,16 @@
 #import "Colleague.h"
 #import "Mediator.h"
 
-@interface Colleague ()
-
-@end
-
 @implementation Colleague
-- (instancetype)initWithMediator:(Mediator *)mediator {
+- (instancetype)initWithMediator:(id)mediator {
     if (self = [super init]) {
         _mediator = mediator;
     }
     return self;
 }
+
+- (void)send:(NSString *)msg {}
+
+- (void)notify:(NSString *)msg {}
+
 @end

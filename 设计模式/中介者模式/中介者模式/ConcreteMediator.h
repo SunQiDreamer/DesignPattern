@@ -10,7 +10,7 @@
 #import "ConcreteColleague1.h"
 #import "ConcreteColleague2.h"
 
-@interface ConcreteMediator : Mediator
+@interface ConcreteMediator : NSObject<Mediator>
 
 @property (nonatomic,strong) ConcreteColleague1 *colleague1;
 
