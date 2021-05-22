@@ -19,7 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // 也叫调停者模式，用于斡旋双方
     // 上学的时候上课传小纸条
+    // 具体发送和接收消息的两个类不互相依赖，只与中介依赖；Mediatro类似于路由，Colleague类似于viewController
     
     // 中间传小纸条的人
     ConcreteMediator *m = [ConcreteMediator new];
@@ -34,7 +36,6 @@
     [c1 send:@"吃了吗"];
     [c2 send:@"没有"];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
