@@ -6,11 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractClass.h"
+#import "ConcreteClassA.h"
+#import "ConcreteClassB.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        AbstractClass *c = [[ConcreteClassA alloc] init];
+        [c templateMethod];
+        
+        c = [[ConcreteClassB alloc] init];
+        [c templateMethod];
     }
     return 0;
 }

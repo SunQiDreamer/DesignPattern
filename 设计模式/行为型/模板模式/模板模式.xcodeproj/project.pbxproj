@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2C1AC4222658D96A002222FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1AC4212658D96A002222FC /* main.m */; };
+		2C1AC42A2658DF38002222FC /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1AC4292658DF38002222FC /* AbstractClass.m */; };
+		2C1AC42D2658DFE1002222FC /* ConcreteClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1AC42C2658DFE1002222FC /* ConcreteClassA.m */; };
+		2C1AC4302658DFEC002222FC /* ConcreteClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1AC42F2658DFEC002222FC /* ConcreteClassB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		2C1AC41E2658D96A002222FC /* 模板模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "模板模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1AC4212658D96A002222FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C1AC4282658DF38002222FC /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
+		2C1AC4292658DF38002222FC /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
+		2C1AC42B2658DFE1002222FC /* ConcreteClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteClassA.h; sourceTree = "<group>"; };
+		2C1AC42C2658DFE1002222FC /* ConcreteClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteClassA.m; sourceTree = "<group>"; };
+		2C1AC42E2658DFEC002222FC /* ConcreteClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteClassB.h; sourceTree = "<group>"; };
+		2C1AC42F2658DFEC002222FC /* ConcreteClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteClassB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				2C1AC4212658D96A002222FC /* main.m */,
+				2C1AC4282658DF38002222FC /* AbstractClass.h */,
+				2C1AC4292658DF38002222FC /* AbstractClass.m */,
+				2C1AC42B2658DFE1002222FC /* ConcreteClassA.h */,
+				2C1AC42C2658DFE1002222FC /* ConcreteClassA.m */,
+				2C1AC42E2658DFEC002222FC /* ConcreteClassB.h */,
+				2C1AC42F2658DFEC002222FC /* ConcreteClassB.m */,
 			);
 			path = "模板模式";
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1AC42A2658DF38002222FC /* AbstractClass.m in Sources */,
 				2C1AC4222658D96A002222FC /* main.m in Sources */,
+				2C1AC4302658DFEC002222FC /* ConcreteClassB.m in Sources */,
+				2C1AC42D2658DFE1002222FC /* ConcreteClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
