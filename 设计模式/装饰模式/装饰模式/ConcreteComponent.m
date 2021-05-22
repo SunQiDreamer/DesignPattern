@@ -10,6 +10,6 @@
 
 @implementation ConcreteComponent
 - (void)operation {
-    NSLog(@"具体对象的操作");
+    NSLog(@"老房子");
 }
 @end

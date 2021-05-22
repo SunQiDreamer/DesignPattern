@@ -20,8 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 给以前的代码添加新的功能
+    // 老房子
     ConcreteComponent *c = [[ConcreteComponent alloc] init];
+    // 贴瓷砖
     ConcreteDecoratorA *d1 = [[ConcreteDecoratorA alloc] init];
+    // 刷乳胶漆
     ConcreteDecoratorB *d2 = [[ConcreteDecoratorB alloc] init];
     d1.component = c;
     d2.component = d1;

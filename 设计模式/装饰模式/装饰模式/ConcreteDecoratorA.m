@@ -11,6 +11,6 @@
 @implementation ConcreteDecoratorA
 - (void)operation {
     [super operation];
-    NSLog(@"具体装饰对象A的操作");
+    NSLog(@"贴瓷砖");
 }
 @end
