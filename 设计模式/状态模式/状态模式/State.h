@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 @class Context;
-@interface State : NSObject
+@protocol State <NSObject>
+// 切换上下文的状态
 - (void)handle:(Context *)context;
+
+- (NSString *)currentState;
+
 @end

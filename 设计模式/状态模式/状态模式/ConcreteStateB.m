@@ -11,9 +11,12 @@
 #import "Context.h"
 
 @implementation ConcreteStateB
-- (void)handle:(Context *)context
-{
+- (void)handle:(Context *)context {
     context.state = [ConcreteStateC new];
+}
+
+- (NSString *)currentState {
+    return @"第二步，领导同意";
 }
 
 @end

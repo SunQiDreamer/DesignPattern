@@ -8,6 +8,6 @@
 
 #import "State.h"
 
-@interface ConcreteStateC : State
+@interface ConcreteStateC : NSObject<State>
 
 @end

@@ -9,26 +9,20 @@
 #import "Context.h"
 #import "State.h"
 
-@interface Context ()
-@end
-
 @implementation Context
-- (instancetype)initWithState:(State *)state
-{
+- (instancetype)initWithState:(id)state {
     if (self = [super init]) {
         _state = state;
     }
     return self;
 }
 
-- (void)request
-{
+- (void)request {
     [self.state handle:self];
 }
 
-- (State *)state
-{
-    NSLog(@"%@  %@",[_state class],_state);
+- (id)state {
+    NSLog(@"%@", [_state currentState]);
     return _state;
 }
 

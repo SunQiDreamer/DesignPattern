@@ -6,12 +6,12 @@
 //  Copyright © 2017年 BlueMobi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@class State;
+#import "State.h"
 
 @interface Context : NSObject
-@property (nonatomic,strong) State *state;
+// 维护当前的状态
+@property (nonatomic, strong) id<State> state;
 
-- (instancetype)initWithState:(State *)state;
+- (instancetype)initWithState:(id<State>)state;
 - (void)request;
 @end

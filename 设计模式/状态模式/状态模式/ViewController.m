@@ -20,10 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 相当于请假走流程，当前处于什么状态
     Context *c = [[Context alloc] initWithState:[[ConcreteStateA alloc] init]];
-    [c request];
-    [c request];
-    [c request];
+    [c request]; // 第一步，申请请假
+    [c request]; // 第二步，领导同意
+    [c request]; // 第二步，HR同意
 }
 
 
