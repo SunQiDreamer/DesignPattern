@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 正则表达式就是解释器方式的实践
     Context *c = [[Context alloc] init];
     c.input = @"input";
     c.output = @"output";

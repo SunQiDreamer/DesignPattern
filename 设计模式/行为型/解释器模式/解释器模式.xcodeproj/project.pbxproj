@@ -13,29 +13,10 @@
 		AC4DDC261E6BECE20061D9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4DDC241E6BECE20061D9E9 /* Main.storyboard */; };
 		AC4DDC281E6BECE20061D9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4DDC271E6BECE20061D9E9 /* Assets.xcassets */; };
 		AC4DDC2B1E6BECE20061D9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4DDC291E6BECE20061D9E9 /* LaunchScreen.storyboard */; };
-		AC4DDC361E6BECE20061D9E9 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC351E6BECE20061D9E9 /* _____Tests.m */; };
-		AC4DDC411E6BECE20061D9E9 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DDC401E6BECE20061D9E9 /* _____UITests.m */; };
 		AC9EC9D41FDB84B00045615E /* TerminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D31FDB84B00045615E /* TerminalExpression.m */; };
 		AC9EC9D71FDB84E90045615E /* NonterminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D61FDB84E90045615E /* NonterminalExpression.m */; };
 		AC9EC9DA1FDB851C0045615E /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9EC9D91FDB851C0045615E /* Context.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AC4DDC321E6BECE20061D9E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC4DDC101E6BECE20061D9E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC4DDC171E6BECE20061D9E9;
-			remoteInfo = "解释器模式";
-		};
-		AC4DDC3D1E6BECE20061D9E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC4DDC101E6BECE20061D9E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC4DDC171E6BECE20061D9E9;
-			remoteInfo = "解释器模式";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AC4DDC181E6BECE20061D9E9 /* 解释器模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "解释器模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,12 +29,6 @@
 		AC4DDC271E6BECE20061D9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4DDC2A1E6BECE20061D9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4DDC2C1E6BECE20061D9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC4DDC311E6BECE20061D9E9 /* 解释器模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "解释器模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC4DDC351E6BECE20061D9E9 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
-		AC4DDC371E6BECE20061D9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC4DDC3C1E6BECE20061D9E9 /* 解释器模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "解释器模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC4DDC401E6BECE20061D9E9 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
-		AC4DDC421E6BECE20061D9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9EC9CF1FDB80300045615E /* AbstractExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractExpression.h; sourceTree = "<group>"; };
 		AC9EC9D21FDB84B00045615E /* TerminalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerminalExpression.h; sourceTree = "<group>"; };
 		AC9EC9D31FDB84B00045615E /* TerminalExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TerminalExpression.m; sourceTree = "<group>"; };
@@ -71,20 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC4DDC2E1E6BECE20061D9E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC4DDC391E6BECE20061D9E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				AC4DDC1A1E6BECE20061D9E9 /* 解释器模式 */,
-				AC4DDC341E6BECE20061D9E9 /* 解释器模式Tests */,
-				AC4DDC3F1E6BECE20061D9E9 /* 解释器模式UITests */,
 				AC4DDC191E6BECE20061D9E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				AC4DDC181E6BECE20061D9E9 /* 解释器模式.app */,
-				AC4DDC311E6BECE20061D9E9 /* 解释器模式Tests.xctest */,
-				AC4DDC3C1E6BECE20061D9E9 /* 解释器模式UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +96,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AC4DDC341E6BECE20061D9E9 /* 解释器模式Tests */ = {
-			isa = PBXGroup;
-			children = (
-				AC4DDC351E6BECE20061D9E9 /* _____Tests.m */,
-				AC4DDC371E6BECE20061D9E9 /* Info.plist */,
-			);
-			path = "解释器模式Tests";
-			sourceTree = "<group>";
-		};
-		AC4DDC3F1E6BECE20061D9E9 /* 解释器模式UITests */ = {
-			isa = PBXGroup;
-			children = (
-				AC4DDC401E6BECE20061D9E9 /* _____UITests.m */,
-				AC4DDC421E6BECE20061D9E9 /* Info.plist */,
-			);
-			path = "解释器模式UITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,42 +116,6 @@
 			productReference = AC4DDC181E6BECE20061D9E9 /* 解释器模式.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC4DDC301E6BECE20061D9E9 /* 解释器模式Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC4DDC481E6BECE20061D9E9 /* Build configuration list for PBXNativeTarget "解释器模式Tests" */;
-			buildPhases = (
-				AC4DDC2D1E6BECE20061D9E9 /* Sources */,
-				AC4DDC2E1E6BECE20061D9E9 /* Frameworks */,
-				AC4DDC2F1E6BECE20061D9E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC4DDC331E6BECE20061D9E9 /* PBXTargetDependency */,
-			);
-			name = "解释器模式Tests";
-			productName = "解释器模式Tests";
-			productReference = AC4DDC311E6BECE20061D9E9 /* 解释器模式Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AC4DDC3B1E6BECE20061D9E9 /* 解释器模式UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC4DDC4B1E6BECE20061D9E9 /* Build configuration list for PBXNativeTarget "解释器模式UITests" */;
-			buildPhases = (
-				AC4DDC381E6BECE20061D9E9 /* Sources */,
-				AC4DDC391E6BECE20061D9E9 /* Frameworks */,
-				AC4DDC3A1E6BECE20061D9E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC4DDC3E1E6BECE20061D9E9 /* PBXTargetDependency */,
-			);
-			name = "解释器模式UITests";
-			productName = "解释器模式UITests";
-			productReference = AC4DDC3C1E6BECE20061D9E9 /* 解释器模式UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,16 +128,6 @@
 					AC4DDC171E6BECE20061D9E9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Manual;
-					};
-					AC4DDC301E6BECE20061D9E9 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AC4DDC171E6BECE20061D9E9;
-					};
-					AC4DDC3B1E6BECE20061D9E9 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AC4DDC171E6BECE20061D9E9;
 					};
 				};
 			};
@@ -253,8 +146,6 @@
 			projectRoot = "";
 			targets = (
 				AC4DDC171E6BECE20061D9E9 /* 解释器模式 */,
-				AC4DDC301E6BECE20061D9E9 /* 解释器模式Tests */,
-				AC4DDC3B1E6BECE20061D9E9 /* 解释器模式UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,20 +158,6 @@
 				AC4DDC2B1E6BECE20061D9E9 /* LaunchScreen.storyboard in Resources */,
 				AC4DDC281E6BECE20061D9E9 /* Assets.xcassets in Resources */,
 				AC4DDC261E6BECE20061D9E9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC4DDC2F1E6BECE20061D9E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC4DDC3A1E6BECE20061D9E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,36 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC4DDC2D1E6BECE20061D9E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC4DDC361E6BECE20061D9E9 /* _____Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC4DDC381E6BECE20061D9E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC4DDC411E6BECE20061D9E9 /* _____UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AC4DDC331E6BECE20061D9E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC4DDC171E6BECE20061D9E9 /* 解释器模式 */;
-			targetProxy = AC4DDC321E6BECE20061D9E9 /* PBXContainerItemProxy */;
-		};
-		AC4DDC3E1E6BECE20061D9E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC4DDC171E6BECE20061D9E9 /* 解释器模式 */;
-			targetProxy = AC4DDC3D1E6BECE20061D9E9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC4DDC241E6BECE20061D9E9 /* Main.storyboard */ = {
@@ -465,52 +313,6 @@
 			};
 			name = Release;
 		};
-		AC4DDC491E6BECE20061D9E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "解释器模式Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/解释器模式.app/解释器模式";
-			};
-			name = Debug;
-		};
-		AC4DDC4A1E6BECE20061D9E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "解释器模式Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/解释器模式.app/解释器模式";
-			};
-			name = Release;
-		};
-		AC4DDC4C1E6BECE20061D9E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "解释器模式UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "解释器模式";
-			};
-			name = Debug;
-		};
-		AC4DDC4D1E6BECE20061D9E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "解释器模式UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqi.www.-----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "解释器模式";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,24 +330,6 @@
 			buildConfigurations = (
 				AC4DDC461E6BECE20061D9E9 /* Debug */,
 				AC4DDC471E6BECE20061D9E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC4DDC481E6BECE20061D9E9 /* Build configuration list for PBXNativeTarget "解释器模式Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC4DDC491E6BECE20061D9E9 /* Debug */,
-				AC4DDC4A1E6BECE20061D9E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC4DDC4B1E6BECE20061D9E9 /* Build configuration list for PBXNativeTarget "解释器模式UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC4DDC4C1E6BECE20061D9E9 /* Debug */,
-				AC4DDC4D1E6BECE20061D9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

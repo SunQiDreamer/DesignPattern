@@ -13,12 +13,16 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
+        // 可以用来封装网络请求，command是每一个请求，receiver是具体发送请求的类，invoker是manager
+        // RACCommand 采用了command模式
+        
         //具体执行者（员工）
         Receiver *r = [[Receiver alloc] init];
         //指令（老板要做的事情）
-        Commnad *c1 = [[ConcreteCommnad alloc] initWithReceiver:r name:@"c1"];
-        Commnad *c2 = [[ConcreteCommnad alloc] initWithReceiver:r name:@"c2"];
-        Commnad *c3 = [[ConcreteCommnad alloc] initWithReceiver:r name:@"c3"];
+        Commnad *c1 = [[ConcreteCommnad alloc] initWithReceiver:r name:@"拖地"];
+        Commnad *c2 = [[ConcreteCommnad alloc] initWithReceiver:r name:@"扫地"];
+        Commnad *c3 = [[ConcreteCommnad alloc] initWithReceiver:r name:@"打扫卫生"];
         //发起者 （boss）
         Invoker *i = [[Invoker alloc] init];
         i.command = c1; // boss说我们要做点啥
