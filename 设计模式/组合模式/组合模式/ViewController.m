@@ -20,6 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // 公司组织架构中形成的树形结构
     Composite *root = [[Composite alloc] initWithName:@"root"];
     [root add:[[Leaf alloc] initWithName:@"leaf a"]];
     [root add:[[Leaf alloc] initWithName:@"leaf b"]];

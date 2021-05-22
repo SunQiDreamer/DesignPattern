@@ -8,6 +8,7 @@
 
 #import "Component.h"
 
+// 叶子节点
 @interface Leaf : Component
 
 @end

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Component : NSObject
-@property (nonatomic,strong) NSString *name;
+@property (nonatomic, strong, readonly) NSString *name;
 - (instancetype)initWithName:(NSString *)name;
 - (void)add:(Component *)c;
 - (void)remove:(Component *)c;

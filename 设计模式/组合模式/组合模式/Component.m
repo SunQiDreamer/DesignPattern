@@ -9,8 +9,7 @@
 #import "Component.h"
 
 @implementation Component
-- (instancetype)initWithName:(NSString *)name
-{
+- (instancetype)initWithName:(NSString *)name {
     if (self = [super init]) {
         _name = name;
     }

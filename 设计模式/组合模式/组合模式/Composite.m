@@ -14,18 +14,15 @@
 @end
 
 @implementation Composite
-- (void)add:(Component *)c
-{
+- (void)add:(Component *)c {
     [self.children addObject:c];
 }
 
-- (void)remove:(Component *)c
-{
+- (void)remove:(Component *)c {
     [self.children removeObject:c];
 }
 
-- (void)display:(int)depth
-{
+- (void)display:(int)depth {
     NSLog(@"%d:%@",depth,self.name);
     for (Component *component in self.children) {
         [component display:2];

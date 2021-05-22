@@ -8,6 +8,7 @@
 
 #import "Component.h"
 
+// 非叶子节点
 @interface Composite : Component
 
 @end
