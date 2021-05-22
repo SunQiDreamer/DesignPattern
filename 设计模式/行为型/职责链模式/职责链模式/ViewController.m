@@ -23,9 +23,9 @@
     
     // 可以用来抽取switch-case代码
     
-    id<Handler> h1 = [[ConcreteHandler1 alloc] init];
-    id<Handler> h2 = [[ConcreteHandler2 alloc] init];
-    id<Handler> h3 = [[ConcreteHandler3 alloc] init];
+    id<Handler> h1 = [[ConcreteHandler1 alloc] init]; // 分支1
+    id<Handler> h2 = [[ConcreteHandler2 alloc] init]; // 分支2
+    id<Handler> h3 = [[ConcreteHandler3 alloc] init]; // 分支3
     h1.successor = h2;
     h2.successor = h3;
     

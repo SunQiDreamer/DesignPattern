@@ -13,6 +13,9 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
+        
+        // 就是继承
+        
         AbstractClass *c = [[ConcreteClassA alloc] init];
         [c templateMethod];
         

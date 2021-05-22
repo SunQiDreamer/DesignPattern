@@ -12,7 +12,7 @@
 @synthesize successor;
 
 - (void)handleRequest:(int)request {
-    if (request >= 10 && request < 20) {
+    if (request >= 10 && request < 20) { // 分支2条件
         NSLog(@"2 handler");
     } else if (self.successor) {
         [self.successor handleRequest:request];

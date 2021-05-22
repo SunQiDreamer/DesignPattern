@@ -12,7 +12,7 @@
 @synthesize successor;
 
 - (void)handleRequest:(int)request {
-    if (request >= 20 && request < 30) {
+    if (request >= 20 && request < 30) { // 分支3条件
         NSLog(@"3 handler");
     } else if (self.successor) {
         [self.successor handleRequest:request];
