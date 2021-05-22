@@ -22,6 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // 相当于请假走流程，当前处于什么状态
+    // 代码中的状态管理，例如播放器的播放、暂停、停止状态，可以将枚举替换成状态模式,剔除掉switch-case
     Context *c = [[Context alloc] initWithState:[[ConcreteStateA alloc] init]];
     [c request]; // 第一步，申请请假
     [c request]; // 第二步，领导同意
