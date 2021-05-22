@@ -16,11 +16,11 @@
 @end
 
 @implementation Subject
-- (void)attach:(id<Observe>)observer {
+- (void)add:(id<Observe>)observer {
     [self.observes addObject:observer];
 }
 
-- (void)detach:(id<Observe>)observer {
+- (void)remove:(id<Observe>)observer {
     [self.observes removeObject:observer];
 }
 

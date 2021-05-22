@@ -13,29 +13,10 @@
 		ACDDE7CC1E4EF97E00A2AE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDDE7CA1E4EF97E00A2AE34 /* Main.storyboard */; };
 		ACDDE7CE1E4EF97E00A2AE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDDE7CD1E4EF97E00A2AE34 /* Assets.xcassets */; };
 		ACDDE7D11E4EF97E00A2AE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDDE7CF1E4EF97E00A2AE34 /* LaunchScreen.storyboard */; };
-		ACDDE7DC1E4EF97E00A2AE34 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7DB1E4EF97E00A2AE34 /* _____Tests.m */; };
-		ACDDE7E71E4EF97F00A2AE34 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7E61E4EF97F00A2AE34 /* _____UITests.m */; };
 		ACDDE7F61E4EF99700A2AE34 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7F51E4EF99700A2AE34 /* Subject.m */; };
 		ACDDE7FC1E4EFCF600A2AE34 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7FB1E4EFCF600A2AE34 /* ConcreteSubject.m */; };
 		ACDDE7FF1E4EFD0700A2AE34 /* ConcreteObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE7FE1E4EFD0700A2AE34 /* ConcreteObserve.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ACDDE7D81E4EF97E00A2AE34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACDDE7B61E4EF97E00A2AE34 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACDDE7BD1E4EF97E00A2AE34;
-			remoteInfo = "观察者模式";
-		};
-		ACDDE7E31E4EF97F00A2AE34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACDDE7B61E4EF97E00A2AE34 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACDDE7BD1E4EF97E00A2AE34;
-			remoteInfo = "观察者模式";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ACDDE7BE1E4EF97E00A2AE34 /* 观察者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "观察者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,12 +29,6 @@
 		ACDDE7CD1E4EF97E00A2AE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACDDE7D01E4EF97E00A2AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACDDE7D21E4EF97E00A2AE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACDDE7D71E4EF97E00A2AE34 /* 观察者模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "观察者模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDDE7DB1E4EF97E00A2AE34 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
-		ACDDE7DD1E4EF97E00A2AE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACDDE7E21E4EF97F00A2AE34 /* 观察者模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "观察者模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDDE7E61E4EF97F00A2AE34 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
-		ACDDE7E81E4EF97F00A2AE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACDDE7F41E4EF99700A2AE34 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		ACDDE7F51E4EF99700A2AE34 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 		ACDDE7F71E4EF9A500A2AE34 /* Observe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observe.h; sourceTree = "<group>"; };
@@ -71,20 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDDE7D41E4EF97E00A2AE34 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACDDE7DF1E4EF97F00A2AE34 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				ACDDE7C01E4EF97E00A2AE34 /* 观察者模式 */,
-				ACDDE7DA1E4EF97E00A2AE34 /* 观察者模式Tests */,
-				ACDDE7E51E4EF97F00A2AE34 /* 观察者模式UITests */,
 				ACDDE7BF1E4EF97E00A2AE34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				ACDDE7BE1E4EF97E00A2AE34 /* 观察者模式.app */,
-				ACDDE7D71E4EF97E00A2AE34 /* 观察者模式Tests.xctest */,
-				ACDDE7E21E4EF97F00A2AE34 /* 观察者模式UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +96,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ACDDE7DA1E4EF97E00A2AE34 /* 观察者模式Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ACDDE7DB1E4EF97E00A2AE34 /* _____Tests.m */,
-				ACDDE7DD1E4EF97E00A2AE34 /* Info.plist */,
-			);
-			path = "观察者模式Tests";
-			sourceTree = "<group>";
-		};
-		ACDDE7E51E4EF97F00A2AE34 /* 观察者模式UITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACDDE7E61E4EF97F00A2AE34 /* _____UITests.m */,
-				ACDDE7E81E4EF97F00A2AE34 /* Info.plist */,
-			);
-			path = "观察者模式UITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,42 +116,6 @@
 			productReference = ACDDE7BE1E4EF97E00A2AE34 /* 观察者模式.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACDDE7D61E4EF97E00A2AE34 /* 观察者模式Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACDDE7EE1E4EF97F00A2AE34 /* Build configuration list for PBXNativeTarget "观察者模式Tests" */;
-			buildPhases = (
-				ACDDE7D31E4EF97E00A2AE34 /* Sources */,
-				ACDDE7D41E4EF97E00A2AE34 /* Frameworks */,
-				ACDDE7D51E4EF97E00A2AE34 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACDDE7D91E4EF97E00A2AE34 /* PBXTargetDependency */,
-			);
-			name = "观察者模式Tests";
-			productName = "观察者模式Tests";
-			productReference = ACDDE7D71E4EF97E00A2AE34 /* 观察者模式Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ACDDE7E11E4EF97F00A2AE34 /* 观察者模式UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACDDE7F11E4EF97F00A2AE34 /* Build configuration list for PBXNativeTarget "观察者模式UITests" */;
-			buildPhases = (
-				ACDDE7DE1E4EF97F00A2AE34 /* Sources */,
-				ACDDE7DF1E4EF97F00A2AE34 /* Frameworks */,
-				ACDDE7E01E4EF97F00A2AE34 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACDDE7E41E4EF97F00A2AE34 /* PBXTargetDependency */,
-			);
-			name = "观察者模式UITests";
-			productName = "观察者模式UITests";
-			productReference = ACDDE7E21E4EF97F00A2AE34 /* 观察者模式UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,16 +129,6 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4EH4PGQM4J;
 						ProvisioningStyle = Automatic;
-					};
-					ACDDE7D61E4EF97E00A2AE34 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = ACDDE7BD1E4EF97E00A2AE34;
-					};
-					ACDDE7E11E4EF97F00A2AE34 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = ACDDE7BD1E4EF97E00A2AE34;
 					};
 				};
 			};
@@ -254,8 +147,6 @@
 			projectRoot = "";
 			targets = (
 				ACDDE7BD1E4EF97E00A2AE34 /* 观察者模式 */,
-				ACDDE7D61E4EF97E00A2AE34 /* 观察者模式Tests */,
-				ACDDE7E11E4EF97F00A2AE34 /* 观察者模式UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,20 +159,6 @@
 				ACDDE7D11E4EF97E00A2AE34 /* LaunchScreen.storyboard in Resources */,
 				ACDDE7CE1E4EF97E00A2AE34 /* Assets.xcassets in Resources */,
 				ACDDE7CC1E4EF97E00A2AE34 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACDDE7D51E4EF97E00A2AE34 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACDDE7E01E4EF97F00A2AE34 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,36 +178,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDDE7D31E4EF97E00A2AE34 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACDDE7DC1E4EF97E00A2AE34 /* _____Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACDDE7DE1E4EF97F00A2AE34 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACDDE7E71E4EF97F00A2AE34 /* _____UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ACDDE7D91E4EF97E00A2AE34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACDDE7BD1E4EF97E00A2AE34 /* 观察者模式 */;
-			targetProxy = ACDDE7D81E4EF97E00A2AE34 /* PBXContainerItemProxy */;
-		};
-		ACDDE7E41E4EF97F00A2AE34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACDDE7BD1E4EF97E00A2AE34 /* 观察者模式 */;
-			targetProxy = ACDDE7E31E4EF97F00A2AE34 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACDDE7CA1E4EF97E00A2AE34 /* Main.storyboard */ = {
@@ -466,52 +314,6 @@
 			};
 			name = Release;
 		};
-		ACDDE7EF1E4EF97F00A2AE34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "观察者模式Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.-----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/观察者模式.app/观察者模式";
-			};
-			name = Debug;
-		};
-		ACDDE7F01E4EF97F00A2AE34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "观察者模式Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.-----Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/观察者模式.app/观察者模式";
-			};
-			name = Release;
-		};
-		ACDDE7F21E4EF97F00A2AE34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "观察者模式UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.-----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "观察者模式";
-			};
-			name = Debug;
-		};
-		ACDDE7F31E4EF97F00A2AE34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "观察者模式UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MainDesign.www.-----UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "观察者模式";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,24 +331,6 @@
 			buildConfigurations = (
 				ACDDE7EC1E4EF97F00A2AE34 /* Debug */,
 				ACDDE7ED1E4EF97F00A2AE34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACDDE7EE1E4EF97F00A2AE34 /* Build configuration list for PBXNativeTarget "观察者模式Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACDDE7EF1E4EF97F00A2AE34 /* Debug */,
-				ACDDE7F01E4EF97F00A2AE34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACDDE7F11E4EF97F00A2AE34 /* Build configuration list for PBXNativeTarget "观察者模式UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACDDE7F21E4EF97F00A2AE34 /* Debug */,
-				ACDDE7F31E4EF97F00A2AE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

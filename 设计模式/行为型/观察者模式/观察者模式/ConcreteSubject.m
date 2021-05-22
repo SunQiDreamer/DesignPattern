@@ -8,10 +8,12 @@
 
 #import "ConcreteSubject.h"
 
-@interface ConcreteSubject ()
-
-@end
-
 @implementation ConcreteSubject
+
+- (void)setSubjectState:(NSString *)subjectState {
+    _subjectState = subjectState;
+    
+    [self notify];
+}
 
 @end

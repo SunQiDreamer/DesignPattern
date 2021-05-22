@@ -20,15 +20,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     ConcreteSubject *s = [[ConcreteSubject alloc] init];
-    [s attach:[[ConcreteObserve alloc] initWithSubject:s name:@"X"]];
-    [s attach:[[ConcreteObserve alloc] initWithSubject:s name:@"Y"]];
-    [s attach:[[ConcreteObserve alloc] initWithSubject:s name:@"Z"]];
+    [s add:[[ConcreteObserve alloc] initWithSubject:s key:@"X"]];
+    [s add:[[ConcreteObserve alloc] initWithSubject:s key:@"Y"]];
+    [s add:[[ConcreteObserve alloc] initWithSubject:s key:@"Z"]];
     
-    s.subjectState = @"ABC";
+    s.subjectState = @"old";
     
-    [s notify];
+    NSLog(@"================");
     
-// 当subject状态改变时，通知三个观察者
+    s.subjectState = @"new";
 
 }
 

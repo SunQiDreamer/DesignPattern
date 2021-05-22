@@ -10,8 +10,8 @@
 
 @interface Subject : NSObject
 
-- (void)attach:(id<Observe>)observer;
-- (void)detach:(id<Observe>)observer;
+- (void)add:(id<Observe>)observer;
+- (void)remove:(id<Observe>)observer;
 - (void)notify;
 
 @end

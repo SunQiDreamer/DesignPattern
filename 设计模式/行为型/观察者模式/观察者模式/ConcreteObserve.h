@@ -10,5 +10,5 @@
 @class ConcreteSubject;
 
 @interface ConcreteObserve : NSObject<Observe>
-- (instancetype)initWithSubject:(ConcreteSubject *)subject name:(NSString *)name;
+- (instancetype)initWithSubject:(ConcreteSubject *)subject key:(NSString *)key;
 @end

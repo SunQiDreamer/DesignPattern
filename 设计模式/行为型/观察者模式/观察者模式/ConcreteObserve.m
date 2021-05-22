@@ -10,23 +10,23 @@
 #import "ConcreteSubject.h"
 
 @interface ConcreteObserve ()
-@property (nonatomic,strong) NSString *name;
+@property (nonatomic,strong) NSString *key;
 @property (nonatomic,strong) NSString *observeState;
 @property (nonatomic,strong) ConcreteSubject *subject;
 
 @end
 
 @implementation ConcreteObserve
-- (instancetype)initWithSubject:(ConcreteSubject *)subject name:(NSString *)name {
+- (instancetype)initWithSubject:(ConcreteSubject *)subject key:(NSString *)key {
     if (self = [super init]) {
         _subject = subject;
-        _name = name;
+        _key = key;
     }
     return self;
 }
 
 - (void)update {
     self.observeState = self.subject.subjectState;
-    NSLog(@"观察者%@的状态%@", self.name, self.observeState);
+    NSLog(@"观察者%@的状态%@", self.key, self.observeState);
 }
 @end
